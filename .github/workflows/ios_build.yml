@@ -25,8 +25,14 @@ jobs:
       - name: Build iOS
         run: flutter build ios --release --no-codesign
 
+      - name: Package IPA
+        run: |
+          mkdir -p Payload
+          cp -r build/ios/iphoneos/Runner.app Payload/
+          zip -r Bilimingni_Test_Qil.ipa Payload
+
       - name: Upload iOS Build
         uses: actions/upload-artifact@v4
         with:
-          name: ios-build-files
-          path: build/ios/iphoneos/Runner.app
+          name: ios-ipa
+          path: Bilimingni_Test_Qil.ipa
