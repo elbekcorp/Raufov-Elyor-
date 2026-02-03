@@ -1,0 +1,205 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Lug'at API (Optimallashgan)",
+    "description": "Ushbu API lug'at ilovasi uchun ma'lumotlarni tezkor va xavfsiz taqdim etadi.",
+    "version": "2.1.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "summary": "API holati",
+        "operationId": "home__get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/words": {
+      "get": {
+        "summary": "Barcha so'zlar",
+        "description": "Paginatsiya bilan so'zlar ro'yxati.",
+        "operationId": "read_words_words_get",
+        "parameters": [
+          {
+            "name": "skip",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "default": 0,
+              "title": "Skip"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "integer",
+              "default": 100,
+              "title": "Limit"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WordResponse"
+                  },
+                  "title": "Response Read Words Words Get"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Yangisoz",
+        "operationId": "create_word_words_post",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WordCreate"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WordResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "summary": "Qidiruv",
+        "description": "O'zbek, ingliz yoki rus tillari bo'yicha tez qidiruv.",
+        "operationId": "search_words_search_get",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "title": "Q"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WordResponse"
+                  },
+                  "title": "Response Search Words Search Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/test": {
+      "get": {
+        "summary": "Tasodifiy test",
+        "operationId": "get_quiz_word_test_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WordResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "WordCreate": {
+        "properties": {
+          "uz": {
+            "type": "string",
+            "title": "Uz"
+          },
+          "en": {
+            "type": "string",
+            "title": "En"
+          },
+          "ru": {
+            "type": "string",
+            "title": "Ru"
+          }
+        },
+        "type": "object",
+        "required": [
+          "uz",
+          "en",
+          "ru"
+        ],
+        "title": "WordCreate"
+      },
+      "WordResponse": {
+        "properties": {
+          "i": {
+            "type": "integer",
+            "title": "I"
+          },
+          "u": {
+            "type": "string",
+            "title": "U"
+          },
+          "e": {
+            "type": "string",
+            "title": "E"
+          },
+          "r": {
+            "type": "string",
+            "title": "R"
+          }
+        },
+        "type": "object",
+        "required": [
+          "i",
+          "u",
+          "e",
+          "r"
+        ],
+        "title": "WordResponse"
+      }
+    }
+  }
+}

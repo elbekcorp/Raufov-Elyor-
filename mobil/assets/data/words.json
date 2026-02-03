@@ -1,0 +1,5002 @@
+[
+  {
+    "uz": "Olma",
+    "en": "Apple",
+    "ru": "Яблоко"
+  },
+  {
+    "uz": "Banan",
+    "en": "Banana",
+    "ru": "Банан"
+  },
+  {
+    "uz": "Anor",
+    "en": "Pomegranate",
+    "ru": "Гранат"
+  },
+  {
+    "uz": "Uzum",
+    "en": "Grape",
+    "ru": "Виноград"
+  },
+  {
+    "uz": "Nok",
+    "en": "Pear",
+    "ru": "Груша"
+  },
+  {
+    "uz": "O'rik",
+    "en": "Apricot",
+    "ru": "Абрикос"
+  },
+  {
+    "uz": "Limon",
+    "en": "Lemon",
+    "ru": "Лимон"
+  },
+  {
+    "uz": "Apelsin",
+    "en": "Orange",
+    "ru": "Апельсин"
+  },
+  {
+    "uz": "Mandarin",
+    "en": "Tangerine",
+    "ru": "Мандарин"
+  },
+  {
+    "uz": "Shaftoli",
+    "en": "Peach",
+    "ru": "Персик"
+  },
+  {
+    "uz": "Gilos",
+    "en": "Cherry",
+    "ru": "Вишня"
+  },
+  {
+    "uz": "Olcha",
+    "en": "Sour cherry",
+    "ru": "Черешня"
+  },
+  {
+    "uz": "Qovun",
+    "en": "Melon",
+    "ru": "Дыня"
+  },
+  {
+    "uz": "Tarvuz",
+    "en": "Watermelon",
+    "ru": "Арбуз"
+  },
+  {
+    "uz": "Anjir",
+    "en": "Fig",
+    "ru": "Инжир"
+  },
+  {
+    "uz": "Xurmo",
+    "en": "Date",
+    "ru": "Финик"
+  },
+  {
+    "uz": "Yong'oq",
+    "en": "Walnut",
+    "ru": "Орех"
+  },
+  {
+    "uz": "Behi",
+    "en": "Quince",
+    "ru": "Айва"
+  },
+  {
+    "uz": "Ota",
+    "en": "Father",
+    "ru": "Отец"
+  },
+  {
+    "uz": "Ona",
+    "en": "Mother",
+    "ru": "Мать"
+  },
+  {
+    "uz": "Aka",
+    "en": "Older brother",
+    "ru": "Старший брат"
+  },
+  {
+    "uz": "Uka",
+    "en": "Younger brother",
+    "ru": "Младший брат"
+  },
+  {
+    "uz": "Opa",
+    "en": "Older sister",
+    "ru": "Старшая сестра"
+  },
+  {
+    "uz": "Singil",
+    "en": "Younger sister",
+    "ru": "Младшая сестра"
+  },
+  {
+    "uz": "Bobo",
+    "en": "Grandfather",
+    "ru": "Дедушка"
+  },
+  {
+    "uz": "Buvi",
+    "en": "Grandmother",
+    "ru": "Бабушка"
+  },
+  {
+    "uz": "O'g'il",
+    "en": "Son",
+    "ru": "Сын"
+  },
+  {
+    "uz": "Qiz",
+    "en": "Daughter",
+    "ru": "Дочь"
+  },
+  {
+    "uz": "Amaki",
+    "en": "Uncle (paternal)",
+    "ru": "Дядя (по отцу)"
+  },
+  {
+    "uz": "Xola",
+    "en": "Aunt (maternal)",
+    "ru": "Тетя (по матери)"
+  },
+  {
+    "uz": "Tog'a",
+    "en": "Uncle (maternal)",
+    "ru": "Дядя (по матери)"
+  },
+  {
+    "uz": "Amma",
+    "en": "Aunt (paternal)",
+    "ru": "Тетя (по отцу)"
+  },
+  {
+    "uz": "Nabira",
+    "en": "Grandchild",
+    "ru": "Внук/Внучка"
+  },
+  {
+    "uz": "Erim",
+    "en": "Husband",
+    "ru": "Муж"
+  },
+  {
+    "uz": "Xotin",
+    "en": "Wife",
+    "ru": "Жена"
+  },
+  {
+    "uz": "Bir",
+    "en": "One",
+    "ru": "Один"
+  },
+  {
+    "uz": "Ikki",
+    "en": "Two",
+    "ru": "Два"
+  },
+  {
+    "uz": "Uch",
+    "en": "Three",
+    "ru": "Три"
+  },
+  {
+    "uz": "To'rt",
+    "en": "Four",
+    "ru": "Четыре"
+  },
+  {
+    "uz": "Besh",
+    "en": "Five",
+    "ru": "Пять"
+  },
+  {
+    "uz": "Olti",
+    "en": "Six",
+    "ru": "Шесть"
+  },
+  {
+    "uz": "Yetti",
+    "en": "Seven",
+    "ru": "Семь"
+  },
+  {
+    "uz": "Sakkiz",
+    "en": "Eight",
+    "ru": "Восемь"
+  },
+  {
+    "uz": "To'qqiz",
+    "en": "Nine",
+    "ru": "Девять"
+  },
+  {
+    "uz": "O'n",
+    "en": "Ten",
+    "ru": "Десять"
+  },
+  {
+    "uz": "Yigirma",
+    "en": "Twenty",
+    "ru": "Двадцать"
+  },
+  {
+    "uz": "O'ttiz",
+    "en": "Thirty",
+    "ru": "Тридцать"
+  },
+  {
+    "uz": "Qirq",
+    "en": "Forty",
+    "ru": "Сорок"
+  },
+  {
+    "uz": "Ellik",
+    "en": "Fifty",
+    "ru": "Пятьдесят"
+  },
+  {
+    "uz": "Oltmish",
+    "en": "Sixty",
+    "ru": "Шестьдесят"
+  },
+  {
+    "uz": "Yetmish",
+    "en": "Seventy",
+    "ru": "Семьдесят"
+  },
+  {
+    "uz": "Sakson",
+    "en": "Eighty",
+    "ru": "Восемьдесят"
+  },
+  {
+    "uz": "To'qson",
+    "en": "Ninety",
+    "ru": "Девяносто"
+  },
+  {
+    "uz": "Yuz",
+    "en": "Hundred",
+    "ru": "Сто"
+  },
+  {
+    "uz": "Ming",
+    "en": "Thousand",
+    "ru": "Тысяча"
+  },
+  {
+    "uz": "Bormoq",
+    "en": "Go",
+    "ru": "Идти"
+  },
+  {
+    "uz": "Kelmoq",
+    "en": "Come",
+    "ru": "Приходить"
+  },
+  {
+    "uz": "Yemoq",
+    "en": "Eat",
+    "ru": "Есть"
+  },
+  {
+    "uz": "Ichmoq",
+    "en": "Drink",
+    "ru": "Пить"
+  },
+  {
+    "uz": "Uxlamoq",
+    "en": "Sleep",
+    "ru": "Спать"
+  },
+  {
+    "uz": "Uyg'onmoq",
+    "en": "Wake up",
+    "ru": "Просыпаться"
+  },
+  {
+    "uz": "O'qimoq",
+    "en": "Read",
+    "ru": "Читать"
+  },
+  {
+    "uz": "Yozmoq",
+    "en": "Write",
+    "ru": "Писать"
+  },
+  {
+    "uz": "Gapirmoq",
+    "en": "Speak",
+    "ru": "Говорить"
+  },
+  {
+    "uz": "Eshitmoq",
+    "en": "Hear",
+    "ru": "Слышать"
+  },
+  {
+    "uz": "Ko'rmoq",
+    "en": "See",
+    "ru": "Видеть"
+  },
+  {
+    "uz": "Yugurmoq",
+    "en": "Run",
+    "ru": "Бежать"
+  },
+  {
+    "uz": "Yurmoq",
+    "en": "Walk",
+    "ru": "Ходить"
+  },
+  {
+    "uz": "O'tirmoq",
+    "en": "Sit",
+    "ru": "Сидеть"
+  },
+  {
+    "uz": "Turmoq",
+    "en": "Stand",
+    "ru": "Стоять"
+  },
+  {
+    "uz": "Ishlamoq",
+    "en": "Work",
+    "ru": "Работать"
+  },
+  {
+    "uz": "O'ynamoq",
+    "en": "Play",
+    "ru": "Играть"
+  },
+  {
+    "uz": "O'rganmoq",
+    "en": "Learn",
+    "ru": "Учиться"
+  },
+  {
+    "uz": "Tushunmoq",
+    "en": "Understand",
+    "ru": "Понимать"
+  },
+  {
+    "uz": "Bilmoq",
+    "en": "Know",
+    "ru": "Знать"
+  },
+  {
+    "uz": "Olmoq",
+    "en": "Take",
+    "ru": "Брать"
+  },
+  {
+    "uz": "Bermoq",
+    "en": "Give",
+    "ru": "Давать"
+  },
+  {
+    "uz": "Katta",
+    "en": "Big",
+    "ru": "Большой"
+  },
+  {
+    "uz": "Kichik",
+    "en": "Small",
+    "ru": "Маленький"
+  },
+  {
+    "uz": "Yaxshi",
+    "en": "Good",
+    "ru": "Хороший"
+  },
+  {
+    "uz": "Yomon",
+    "en": "Bad",
+    "ru": "Плохой"
+  },
+  {
+    "uz": "Yangi",
+    "en": "New",
+    "ru": "Новый"
+  },
+  {
+    "uz": "Eski",
+    "en": "Old",
+    "ru": "Старый"
+  },
+  {
+    "uz": "Chiroyli",
+    "en": "Beautiful",
+    "ru": "Красивый"
+  },
+  {
+    "uz": "Xunuk",
+    "en": "Ugly",
+    "ru": "Уродливый"
+  },
+  {
+    "uz": "Issiq",
+    "en": "Hot",
+    "ru": "Горячий"
+  },
+  {
+    "uz": "Sovuq",
+    "en": "Cold",
+    "ru": "Холодный"
+  },
+  {
+    "uz": "Oson",
+    "en": "Easy",
+    "ru": "Легкий"
+  },
+  {
+    "uz": "Qiyin",
+    "en": "Difficult",
+    "ru": "Трудный"
+  },
+  {
+    "uz": "Boy",
+    "en": "Rich",
+    "ru": "Богатый"
+  },
+  {
+    "uz": "Kambag'al",
+    "en": "Poor",
+    "ru": "Бедный"
+  },
+  {
+    "uz": "Aqlli",
+    "en": "Smart",
+    "ru": "Умный"
+  },
+  {
+    "uz": "Kuchsiz",
+    "en": "Weak",
+    "ru": "Слабый"
+  },
+  {
+    "uz": "Kuchli",
+    "en": "Strong",
+    "ru": "Сильный"
+  },
+  {
+    "uz": "Uzoq",
+    "en": "Far",
+    "ru": "Далекий"
+  },
+  {
+    "uz": "Kitob",
+    "en": "Book",
+    "ru": "Книга"
+  },
+  {
+    "uz": "Qalam",
+    "en": "Pencil",
+    "ru": "Карандаш"
+  },
+  {
+    "uz": "Daftar",
+    "en": "Notebook",
+    "ru": "Тетрадь"
+  },
+  {
+    "uz": "Maktab",
+    "en": "School",
+    "ru": "Школа"
+  },
+  {
+    "uz": "Shahar",
+    "en": "City",
+    "ru": "Город"
+  },
+  {
+    "uz": "Uy",
+    "en": "House",
+    "ru": "Дом"
+  },
+  {
+    "uz": "Suv",
+    "en": "Water",
+    "ru": "Вода"
+  },
+  {
+    "uz": "Non",
+    "en": "Bread",
+    "ru": "Хлеб"
+  },
+  {
+    "uz": "Sut",
+    "en": "Milk",
+    "ru": "Молоко"
+  },
+  {
+    "uz": "Choy",
+    "en": "Tea",
+    "ru": "Чай"
+  },
+  {
+    "uz": "Qahva",
+    "en": "Coffee",
+    "ru": "Кофе"
+  },
+  {
+    "uz": "Shakar",
+    "en": "Sugar",
+    "ru": "Сахар"
+  },
+  {
+    "uz": "Samolyot",
+    "en": "Plane",
+    "ru": "Самолет"
+  },
+  {
+    "uz": "Poyezd",
+    "en": "Train",
+    "ru": "Поезд"
+  },
+  {
+    "uz": "Mashina",
+    "en": "Car",
+    "ru": "Машина"
+  },
+  {
+    "uz": "Kiyim",
+    "en": "Clothes",
+    "ru": "Одежда"
+  },
+  {
+    "uz": "Poyafzal",
+    "en": "Shoes",
+    "ru": "Обувь"
+  },
+  {
+    "uz": "Sumka",
+    "en": "Bag",
+    "ru": "Сумка"
+  },
+  {
+    "uz": "Davlat",
+    "en": "Country",
+    "ru": "Страна"
+  },
+  {
+    "uz": "Xalq",
+    "en": "People",
+    "ru": "Народ"
+  },
+  {
+    "uz": "Vaqt",
+    "en": "Time",
+    "ru": "Время"
+  },
+  {
+    "uz": "Yil",
+    "en": "Year",
+    "ru": "Год"
+  },
+  {
+    "uz": "Kun",
+    "en": "Day",
+    "ru": "День"
+  },
+  {
+    "uz": "Hafta",
+    "en": "Week",
+    "ru": "Недели"
+  },
+  {
+    "uz": "Oy",
+    "en": "Month",
+    "ru": "Месяц"
+  },
+  {
+    "uz": "Ish",
+    "en": "Job",
+    "ru": "Работа"
+  },
+  {
+    "uz": "Hayot",
+    "en": "Life",
+    "ru": "Жизнь"
+  },
+  {
+    "uz": "Dunyo",
+    "en": "World",
+    "ru": "Мир"
+  },
+  {
+    "uz": "Savol",
+    "en": "Question",
+    "ru": "Вопрос"
+  },
+  {
+    "uz": "Javob",
+    "en": "Answer",
+    "ru": "Ответ"
+  },
+  {
+    "uz": "Oila",
+    "en": "Family",
+    "ru": "Семья"
+  },
+  {
+    "uz": "Do'st",
+    "en": "Friend",
+    "ru": "Друг"
+  },
+  {
+    "uz": "Dushman",
+    "en": "Enemy",
+    "ru": "Враг"
+  },
+  {
+    "uz": "Bayram",
+    "en": "Holiday",
+    "ru": "Праздник"
+  },
+  {
+    "uz": "Musobaqa",
+    "en": "Competition",
+    "ru": "Соревнование"
+  },
+  {
+    "uz": "Tuz",
+    "en": "Salt",
+    "ru": "Соль"
+  },
+  {
+    "uz": "Go'sht",
+    "en": "Meat",
+    "ru": "Мясо"
+  },
+  {
+    "uz": "Baliq",
+    "en": "Fish",
+    "ru": "Рыба"
+  },
+  {
+    "uz": "Guruch",
+    "en": "Rice",
+    "ru": "Рис"
+  },
+  {
+    "uz": "Piyoz",
+    "en": "Onion",
+    "ru": "Лук"
+  },
+  {
+    "uz": "Sarimsoq",
+    "en": "Garlic",
+    "ru": "Чеснок"
+  },
+  {
+    "uz": "Baxt",
+    "en": "Happiness",
+    "ru": "Счастье"
+  },
+  {
+    "uz": "Qayg'u",
+    "en": "Sadness",
+    "ru": "Грусть"
+  },
+  {
+    "uz": "Qo'rqinch",
+    "en": "Fear",
+    "ru": "Страх"
+  },
+  {
+    "uz": "Muhabbat",
+    "en": "Love",
+    "ru": "Любовь"
+  },
+  {
+    "uz": "Nafrat",
+    "en": "Hate",
+    "ru": "Ненависть"
+  },
+  {
+    "uz": "Tinchlik",
+    "en": "Peace",
+    "ru": "Мир"
+  },
+  {
+    "uz": "Urush",
+    "en": "War",
+    "ru": "Война"
+  },
+  {
+    "uz": "Qonun",
+    "en": "Law",
+    "ru": "Закон"
+  },
+  {
+    "uz": "Haqiqat",
+    "en": "Truth",
+    "ru": "Правда"
+  },
+  {
+    "uz": "Yolg'on",
+    "en": "Lie",
+    "ru": "Ложь"
+  },
+  {
+    "uz": "Rang",
+    "en": "Color",
+    "ru": "Цвет"
+  },
+  {
+    "uz": "Shakl",
+    "en": "Shape",
+    "ru": "Форма"
+  },
+  {
+    "uz": "Havo",
+    "en": "Air",
+    "ru": "Воздух"
+  },
+  {
+    "uz": "Yer",
+    "en": "Earth",
+    "ru": "Земля"
+  },
+  {
+    "uz": "Olov",
+    "en": "Fire",
+    "ru": "Огонь"
+  },
+  {
+    "uz": "Tog'",
+    "en": "Mountain",
+    "ru": "Гора"
+  },
+  {
+    "uz": "Dengiz",
+    "en": "Sea",
+    "ru": "Море"
+  },
+  {
+    "uz": "Daryo",
+    "en": "River",
+    "ru": "Река"
+  },
+  {
+    "uz": "O'rmon",
+    "en": "Forest",
+    "ru": "Лес"
+  },
+  {
+    "uz": "Bog'",
+    "en": "Garden",
+    "ru": "Сад"
+  },
+  {
+    "uz": "G'isht",
+    "en": "Brick",
+    "ru": "Кирпич"
+  },
+  {
+    "uz": "Temir",
+    "en": "Iron",
+    "ru": "Железо"
+  },
+  {
+    "uz": "Oltin",
+    "en": "Gold",
+    "ru": "Золото"
+  },
+  {
+    "uz": "Kumush",
+    "en": "Silver",
+    "ru": "Серебро"
+  },
+  {
+    "uz": "Katta Kitob",
+    "en": "Big Book",
+    "ru": "Большой Книга"
+  },
+  {
+    "uz": "Katta Qalam",
+    "en": "Big Pencil",
+    "ru": "Большой Карандаш"
+  },
+  {
+    "uz": "Katta Daftar",
+    "en": "Big Notebook",
+    "ru": "Большой Тетрадь"
+  },
+  {
+    "uz": "Katta Maktab",
+    "en": "Big School",
+    "ru": "Большой Школа"
+  },
+  {
+    "uz": "Katta Shahar",
+    "en": "Big City",
+    "ru": "Большой Город"
+  },
+  {
+    "uz": "Katta Uy",
+    "en": "Big House",
+    "ru": "Большой Дом"
+  },
+  {
+    "uz": "Katta Suv",
+    "en": "Big Water",
+    "ru": "Большой Вода"
+  },
+  {
+    "uz": "Katta Non",
+    "en": "Big Bread",
+    "ru": "Большой Хлеб"
+  },
+  {
+    "uz": "Katta Sut",
+    "en": "Big Milk",
+    "ru": "Большой Молоко"
+  },
+  {
+    "uz": "Katta Choy",
+    "en": "Big Tea",
+    "ru": "Большой Чай"
+  },
+  {
+    "uz": "Katta Qahva",
+    "en": "Big Coffee",
+    "ru": "Большой Кофе"
+  },
+  {
+    "uz": "Katta Shakar",
+    "en": "Big Sugar",
+    "ru": "Большой Сахар"
+  },
+  {
+    "uz": "Katta Samolyot",
+    "en": "Big Plane",
+    "ru": "Большой Самолет"
+  },
+  {
+    "uz": "Katta Poyezd",
+    "en": "Big Train",
+    "ru": "Большой Поезд"
+  },
+  {
+    "uz": "Katta Mashina",
+    "en": "Big Car",
+    "ru": "Большой Машина"
+  },
+  {
+    "uz": "Katta Kiyim",
+    "en": "Big Clothes",
+    "ru": "Большой Одежда"
+  },
+  {
+    "uz": "Katta Poyafzal",
+    "en": "Big Shoes",
+    "ru": "Большой Обувь"
+  },
+  {
+    "uz": "Katta Sumka",
+    "en": "Big Bag",
+    "ru": "Большой Сумка"
+  },
+  {
+    "uz": "Kichik Kitob",
+    "en": "Small Book",
+    "ru": "Маленький Книга"
+  },
+  {
+    "uz": "Kichik Qalam",
+    "en": "Small Pencil",
+    "ru": "Маленький Карандаш"
+  },
+  {
+    "uz": "Kichik Daftar",
+    "en": "Small Notebook",
+    "ru": "Маленький Тетрадь"
+  },
+  {
+    "uz": "Kichik Maktab",
+    "en": "Small School",
+    "ru": "Маленький Школа"
+  },
+  {
+    "uz": "Kichik Shahar",
+    "en": "Small City",
+    "ru": "Маленький Город"
+  },
+  {
+    "uz": "Kichik Uy",
+    "en": "Small House",
+    "ru": "Маленький Дом"
+  },
+  {
+    "uz": "Kichik Suv",
+    "en": "Small Water",
+    "ru": "Маленький Вода"
+  },
+  {
+    "uz": "Kichik Non",
+    "en": "Small Bread",
+    "ru": "Маленький Хлеб"
+  },
+  {
+    "uz": "Kichik Sut",
+    "en": "Small Milk",
+    "ru": "Маленький Молоко"
+  },
+  {
+    "uz": "Kichik Choy",
+    "en": "Small Tea",
+    "ru": "Маленький Чай"
+  },
+  {
+    "uz": "Kichik Qahva",
+    "en": "Small Coffee",
+    "ru": "Маленький Кофе"
+  },
+  {
+    "uz": "Kichik Shakar",
+    "en": "Small Sugar",
+    "ru": "Маленький Сахар"
+  },
+  {
+    "uz": "Kichik Samolyot",
+    "en": "Small Plane",
+    "ru": "Маленький Самолет"
+  },
+  {
+    "uz": "Kichik Poyezd",
+    "en": "Small Train",
+    "ru": "Маленький Поезд"
+  },
+  {
+    "uz": "Kichik Mashina",
+    "en": "Small Car",
+    "ru": "Маленький Машина"
+  },
+  {
+    "uz": "Kichik Kiyim",
+    "en": "Small Clothes",
+    "ru": "Маленький Одежда"
+  },
+  {
+    "uz": "Kichik Poyafzal",
+    "en": "Small Shoes",
+    "ru": "Маленький Обувь"
+  },
+  {
+    "uz": "Kichik Sumka",
+    "en": "Small Bag",
+    "ru": "Маленький Сумка"
+  },
+  {
+    "uz": "Yaxshi Kitob",
+    "en": "Good Book",
+    "ru": "Хороший Книга"
+  },
+  {
+    "uz": "Yaxshi Qalam",
+    "en": "Good Pencil",
+    "ru": "Хороший Карандаш"
+  },
+  {
+    "uz": "Yaxshi Daftar",
+    "en": "Good Notebook",
+    "ru": "Хороший Тетрадь"
+  },
+  {
+    "uz": "Yaxshi Maktab",
+    "en": "Good School",
+    "ru": "Хороший Школа"
+  },
+  {
+    "uz": "Yaxshi Shahar",
+    "en": "Good City",
+    "ru": "Хороший Город"
+  },
+  {
+    "uz": "Yaxshi Uy",
+    "en": "Good House",
+    "ru": "Хороший Дом"
+  },
+  {
+    "uz": "Yaxshi Suv",
+    "en": "Good Water",
+    "ru": "Хороший Вода"
+  },
+  {
+    "uz": "Yaxshi Non",
+    "en": "Good Bread",
+    "ru": "Хороший Хлеб"
+  },
+  {
+    "uz": "Yaxshi Sut",
+    "en": "Good Milk",
+    "ru": "Хороший Молоко"
+  },
+  {
+    "uz": "Yaxshi Choy",
+    "en": "Good Tea",
+    "ru": "Хороший Чай"
+  },
+  {
+    "uz": "Yaxshi Qahva",
+    "en": "Good Coffee",
+    "ru": "Хороший Кофе"
+  },
+  {
+    "uz": "Yaxshi Shakar",
+    "en": "Good Sugar",
+    "ru": "Хороший Сахар"
+  },
+  {
+    "uz": "Yaxshi Samolyot",
+    "en": "Good Plane",
+    "ru": "Хороший Самолет"
+  },
+  {
+    "uz": "Yaxshi Poyezd",
+    "en": "Good Train",
+    "ru": "Хороший Поезд"
+  },
+  {
+    "uz": "Yaxshi Mashina",
+    "en": "Good Car",
+    "ru": "Хороший Машина"
+  },
+  {
+    "uz": "Yaxshi Kiyim",
+    "en": "Good Clothes",
+    "ru": "Хороший Одежда"
+  },
+  {
+    "uz": "Yaxshi Poyafzal",
+    "en": "Good Shoes",
+    "ru": "Хороший Обувь"
+  },
+  {
+    "uz": "Yaxshi Sumka",
+    "en": "Good Bag",
+    "ru": "Хороший Сумка"
+  },
+  {
+    "uz": "Yomon Kitob",
+    "en": "Bad Book",
+    "ru": "Плохой Книга"
+  },
+  {
+    "uz": "Yomon Qalam",
+    "en": "Bad Pencil",
+    "ru": "Плохой Карандаш"
+  },
+  {
+    "uz": "Yomon Daftar",
+    "en": "Bad Notebook",
+    "ru": "Плохой Тетрадь"
+  },
+  {
+    "uz": "Yomon Maktab",
+    "en": "Bad School",
+    "ru": "Плохой Школа"
+  },
+  {
+    "uz": "Yomon Shahar",
+    "en": "Bad City",
+    "ru": "Плохой Город"
+  },
+  {
+    "uz": "Yomon Uy",
+    "en": "Bad House",
+    "ru": "Плохой Дом"
+  },
+  {
+    "uz": "Yomon Suv",
+    "en": "Bad Water",
+    "ru": "Плохой Вода"
+  },
+  {
+    "uz": "Yomon Non",
+    "en": "Bad Bread",
+    "ru": "Плохой Хлеб"
+  },
+  {
+    "uz": "Yomon Sut",
+    "en": "Bad Milk",
+    "ru": "Плохой Молоко"
+  },
+  {
+    "uz": "Yomon Choy",
+    "en": "Bad Tea",
+    "ru": "Плохой Чай"
+  },
+  {
+    "uz": "Yomon Qahva",
+    "en": "Bad Coffee",
+    "ru": "Плохой Кофе"
+  },
+  {
+    "uz": "Yomon Shakar",
+    "en": "Bad Sugar",
+    "ru": "Плохой Сахар"
+  },
+  {
+    "uz": "Yomon Samolyot",
+    "en": "Bad Plane",
+    "ru": "Плохой Самолет"
+  },
+  {
+    "uz": "Yomon Poyezd",
+    "en": "Bad Train",
+    "ru": "Плохой Поезд"
+  },
+  {
+    "uz": "Yomon Mashina",
+    "en": "Bad Car",
+    "ru": "Плохой Машина"
+  },
+  {
+    "uz": "Yomon Kiyim",
+    "en": "Bad Clothes",
+    "ru": "Плохой Одежда"
+  },
+  {
+    "uz": "Yomon Poyafzal",
+    "en": "Bad Shoes",
+    "ru": "Плохой Обувь"
+  },
+  {
+    "uz": "Yomon Sumka",
+    "en": "Bad Bag",
+    "ru": "Плохой Сумка"
+  },
+  {
+    "uz": "Yangi Kitob",
+    "en": "New Book",
+    "ru": "Новый Книга"
+  },
+  {
+    "uz": "Yangi Qalam",
+    "en": "New Pencil",
+    "ru": "Новый Карандаш"
+  },
+  {
+    "uz": "Yangi Daftar",
+    "en": "New Notebook",
+    "ru": "Новый Тетрадь"
+  },
+  {
+    "uz": "Yangi Maktab",
+    "en": "New School",
+    "ru": "Новый Школа"
+  },
+  {
+    "uz": "Yangi Shahar",
+    "en": "New City",
+    "ru": "Новый Город"
+  },
+  {
+    "uz": "Yangi Uy",
+    "en": "New House",
+    "ru": "Новый Дом"
+  },
+  {
+    "uz": "Yangi Suv",
+    "en": "New Water",
+    "ru": "Новый Вода"
+  },
+  {
+    "uz": "Yangi Non",
+    "en": "New Bread",
+    "ru": "Новый Хлеб"
+  },
+  {
+    "uz": "Yangi Sut",
+    "en": "New Milk",
+    "ru": "Новый Молоко"
+  },
+  {
+    "uz": "Yangi Choy",
+    "en": "New Tea",
+    "ru": "Новый Чай"
+  },
+  {
+    "uz": "Yangi Qahva",
+    "en": "New Coffee",
+    "ru": "Новый Кофе"
+  },
+  {
+    "uz": "Yangi Shakar",
+    "en": "New Sugar",
+    "ru": "Новый Сахар"
+  },
+  {
+    "uz": "Yangi Samolyot",
+    "en": "New Plane",
+    "ru": "Новый Самолет"
+  },
+  {
+    "uz": "Yangi Poyezd",
+    "en": "New Train",
+    "ru": "Новый Поезд"
+  },
+  {
+    "uz": "Yangi Mashina",
+    "en": "New Car",
+    "ru": "Новый Машина"
+  },
+  {
+    "uz": "Yangi Kiyim",
+    "en": "New Clothes",
+    "ru": "Новый Одежда"
+  },
+  {
+    "uz": "Yangi Poyafzal",
+    "en": "New Shoes",
+    "ru": "Новый Обувь"
+  },
+  {
+    "uz": "Yangi Sumka",
+    "en": "New Bag",
+    "ru": "Новый Сумка"
+  },
+  {
+    "uz": "Eski Kitob",
+    "en": "Old Book",
+    "ru": "Старый Книга"
+  },
+  {
+    "uz": "Eski Qalam",
+    "en": "Old Pencil",
+    "ru": "Старый Карандаш"
+  },
+  {
+    "uz": "Eski Daftar",
+    "en": "Old Notebook",
+    "ru": "Старый Тетрадь"
+  },
+  {
+    "uz": "Eski Maktab",
+    "en": "Old School",
+    "ru": "Старый Школа"
+  },
+  {
+    "uz": "Eski Shahar",
+    "en": "Old City",
+    "ru": "Старый Город"
+  },
+  {
+    "uz": "Eski Uy",
+    "en": "Old House",
+    "ru": "Старый Дом"
+  },
+  {
+    "uz": "Eski Suv",
+    "en": "Old Water",
+    "ru": "Старый Вода"
+  },
+  {
+    "uz": "Eski Non",
+    "en": "Old Bread",
+    "ru": "Старый Хлеб"
+  },
+  {
+    "uz": "Eski Sut",
+    "en": "Old Milk",
+    "ru": "Старый Молоко"
+  },
+  {
+    "uz": "Eski Choy",
+    "en": "Old Tea",
+    "ru": "Старый Чай"
+  },
+  {
+    "uz": "Eski Qahva",
+    "en": "Old Coffee",
+    "ru": "Старый Кофе"
+  },
+  {
+    "uz": "Eski Shakar",
+    "en": "Old Sugar",
+    "ru": "Старый Сахар"
+  },
+  {
+    "uz": "Eski Samolyot",
+    "en": "Old Plane",
+    "ru": "Старый Самолет"
+  },
+  {
+    "uz": "Eski Poyezd",
+    "en": "Old Train",
+    "ru": "Старый Поезд"
+  },
+  {
+    "uz": "Eski Mashina",
+    "en": "Old Car",
+    "ru": "Старый Машина"
+  },
+  {
+    "uz": "Eski Kiyim",
+    "en": "Old Clothes",
+    "ru": "Старый Одежда"
+  },
+  {
+    "uz": "Eski Poyafzal",
+    "en": "Old Shoes",
+    "ru": "Старый Обувь"
+  },
+  {
+    "uz": "Eski Sumka",
+    "en": "Old Bag",
+    "ru": "Старый Сумка"
+  },
+  {
+    "uz": "Chiroyli Kitob",
+    "en": "Beautiful Book",
+    "ru": "Красивый Книга"
+  },
+  {
+    "uz": "Chiroyli Qalam",
+    "en": "Beautiful Pencil",
+    "ru": "Красивый Карандаш"
+  },
+  {
+    "uz": "Chiroyli Daftar",
+    "en": "Beautiful Notebook",
+    "ru": "Красивый Тетрадь"
+  },
+  {
+    "uz": "Chiroyli Maktab",
+    "en": "Beautiful School",
+    "ru": "Красивый Школа"
+  },
+  {
+    "uz": "Chiroyli Shahar",
+    "en": "Beautiful City",
+    "ru": "Красивый Город"
+  },
+  {
+    "uz": "Chiroyli Uy",
+    "en": "Beautiful House",
+    "ru": "Красивый Дом"
+  },
+  {
+    "uz": "Chiroyli Suv",
+    "en": "Beautiful Water",
+    "ru": "Красивый Вода"
+  },
+  {
+    "uz": "Chiroyli Non",
+    "en": "Beautiful Bread",
+    "ru": "Красивый Хлеб"
+  },
+  {
+    "uz": "Chiroyli Sut",
+    "en": "Beautiful Milk",
+    "ru": "Красивый Молоко"
+  },
+  {
+    "uz": "Chiroyli Choy",
+    "en": "Beautiful Tea",
+    "ru": "Красивый Чай"
+  },
+  {
+    "uz": "Chiroyli Qahva",
+    "en": "Beautiful Coffee",
+    "ru": "Красивый Кофе"
+  },
+  {
+    "uz": "Chiroyli Shakar",
+    "en": "Beautiful Sugar",
+    "ru": "Красивый Сахар"
+  },
+  {
+    "uz": "Chiroyli Samolyot",
+    "en": "Beautiful Plane",
+    "ru": "Красивый Самолет"
+  },
+  {
+    "uz": "Chiroyli Poyezd",
+    "en": "Beautiful Train",
+    "ru": "Красивый Поезд"
+  },
+  {
+    "uz": "Chiroyli Mashina",
+    "en": "Beautiful Car",
+    "ru": "Красивый Машина"
+  },
+  {
+    "uz": "Chiroyli Kiyim",
+    "en": "Beautiful Clothes",
+    "ru": "Красивый Одежда"
+  },
+  {
+    "uz": "Chiroyli Poyafzal",
+    "en": "Beautiful Shoes",
+    "ru": "Красивый Обувь"
+  },
+  {
+    "uz": "Chiroyli Sumka",
+    "en": "Beautiful Bag",
+    "ru": "Красивый Сумка"
+  },
+  {
+    "uz": "Xunuk Kitob",
+    "en": "Ugly Book",
+    "ru": "Уродливый Книга"
+  },
+  {
+    "uz": "Xunuk Qalam",
+    "en": "Ugly Pencil",
+    "ru": "Уродливый Карандаш"
+  },
+  {
+    "uz": "Xunuk Daftar",
+    "en": "Ugly Notebook",
+    "ru": "Уродливый Тетрадь"
+  },
+  {
+    "uz": "Xunuk Maktab",
+    "en": "Ugly School",
+    "ru": "Уродливый Школа"
+  },
+  {
+    "uz": "Xunuk Shahar",
+    "en": "Ugly City",
+    "ru": "Уродливый Город"
+  },
+  {
+    "uz": "Xunuk Uy",
+    "en": "Ugly House",
+    "ru": "Уродливый Дом"
+  },
+  {
+    "uz": "Xunuk Suv",
+    "en": "Ugly Water",
+    "ru": "Уродливый Вода"
+  },
+  {
+    "uz": "Xunuk Non",
+    "en": "Ugly Bread",
+    "ru": "Уродливый Хлеб"
+  },
+  {
+    "uz": "Xunuk Sut",
+    "en": "Ugly Milk",
+    "ru": "Уродливый Молоко"
+  },
+  {
+    "uz": "Xunuk Choy",
+    "en": "Ugly Tea",
+    "ru": "Уродливый Чай"
+  },
+  {
+    "uz": "Xunuk Qahva",
+    "en": "Ugly Coffee",
+    "ru": "Уродливый Кофе"
+  },
+  {
+    "uz": "Xunuk Shakar",
+    "en": "Ugly Sugar",
+    "ru": "Уродливый Сахар"
+  },
+  {
+    "uz": "Xunuk Samolyot",
+    "en": "Ugly Plane",
+    "ru": "Уродливый Самолет"
+  },
+  {
+    "uz": "Xunuk Poyezd",
+    "en": "Ugly Train",
+    "ru": "Уродливый Поезд"
+  },
+  {
+    "uz": "Xunuk Mashina",
+    "en": "Ugly Car",
+    "ru": "Уродливый Машина"
+  },
+  {
+    "uz": "Xunuk Kiyim",
+    "en": "Ugly Clothes",
+    "ru": "Уродливый Одежда"
+  },
+  {
+    "uz": "Xunuk Poyafzal",
+    "en": "Ugly Shoes",
+    "ru": "Уродливый Обувь"
+  },
+  {
+    "uz": "Xunuk Sumka",
+    "en": "Ugly Bag",
+    "ru": "Уродливый Сумка"
+  },
+  {
+    "uz": "Issiq Kitob",
+    "en": "Hot Book",
+    "ru": "Горячий Книга"
+  },
+  {
+    "uz": "Issiq Qalam",
+    "en": "Hot Pencil",
+    "ru": "Горячий Карандаш"
+  },
+  {
+    "uz": "Issiq Daftar",
+    "en": "Hot Notebook",
+    "ru": "Горячий Тетрадь"
+  },
+  {
+    "uz": "Issiq Maktab",
+    "en": "Hot School",
+    "ru": "Горячий Школа"
+  },
+  {
+    "uz": "Issiq Shahar",
+    "en": "Hot City",
+    "ru": "Горячий Город"
+  },
+  {
+    "uz": "Issiq Uy",
+    "en": "Hot House",
+    "ru": "Горячий Дом"
+  },
+  {
+    "uz": "Issiq Suv",
+    "en": "Hot Water",
+    "ru": "Горячий Вода"
+  },
+  {
+    "uz": "Issiq Non",
+    "en": "Hot Bread",
+    "ru": "Горячий Хлеб"
+  },
+  {
+    "uz": "Issiq Sut",
+    "en": "Hot Milk",
+    "ru": "Горячий Молоко"
+  },
+  {
+    "uz": "Issiq Choy",
+    "en": "Hot Tea",
+    "ru": "Горячий Чай"
+  },
+  {
+    "uz": "Issiq Qahva",
+    "en": "Hot Coffee",
+    "ru": "Горячий Кофе"
+  },
+  {
+    "uz": "Issiq Shakar",
+    "en": "Hot Sugar",
+    "ru": "Горячий Сахар"
+  },
+  {
+    "uz": "Issiq Samolyot",
+    "en": "Hot Plane",
+    "ru": "Горячий Самолет"
+  },
+  {
+    "uz": "Issiq Poyezd",
+    "en": "Hot Train",
+    "ru": "Горячий Поезд"
+  },
+  {
+    "uz": "Issiq Mashina",
+    "en": "Hot Car",
+    "ru": "Горячий Машина"
+  },
+  {
+    "uz": "Issiq Kiyim",
+    "en": "Hot Clothes",
+    "ru": "Горячий Одежда"
+  },
+  {
+    "uz": "Issiq Poyafzal",
+    "en": "Hot Shoes",
+    "ru": "Горячий Обувь"
+  },
+  {
+    "uz": "Issiq Sumka",
+    "en": "Hot Bag",
+    "ru": "Горячий Сумка"
+  },
+  {
+    "uz": "Sovuq Kitob",
+    "en": "Cold Book",
+    "ru": "Холодный Книга"
+  },
+  {
+    "uz": "Sovuq Qalam",
+    "en": "Cold Pencil",
+    "ru": "Холодный Карандаш"
+  },
+  {
+    "uz": "Sovuq Daftar",
+    "en": "Cold Notebook",
+    "ru": "Холодный Тетрадь"
+  },
+  {
+    "uz": "Sovuq Maktab",
+    "en": "Cold School",
+    "ru": "Холодный Школа"
+  },
+  {
+    "uz": "Sovuq Shahar",
+    "en": "Cold City",
+    "ru": "Холодный Город"
+  },
+  {
+    "uz": "Sovuq Uy",
+    "en": "Cold House",
+    "ru": "Холодный Дом"
+  },
+  {
+    "uz": "Sovuq Suv",
+    "en": "Cold Water",
+    "ru": "Холодный Вода"
+  },
+  {
+    "uz": "Sovuq Non",
+    "en": "Cold Bread",
+    "ru": "Холодный Хлеб"
+  },
+  {
+    "uz": "Sovuq Sut",
+    "en": "Cold Milk",
+    "ru": "Холодный Молоко"
+  },
+  {
+    "uz": "Sovuq Choy",
+    "en": "Cold Tea",
+    "ru": "Холодный Чай"
+  },
+  {
+    "uz": "Sovuq Qahva",
+    "en": "Cold Coffee",
+    "ru": "Холодный Кофе"
+  },
+  {
+    "uz": "Sovuq Shakar",
+    "en": "Cold Sugar",
+    "ru": "Холодный Сахар"
+  },
+  {
+    "uz": "Sovuq Samolyot",
+    "en": "Cold Plane",
+    "ru": "Холодный Самолет"
+  },
+  {
+    "uz": "Sovuq Poyezd",
+    "en": "Cold Train",
+    "ru": "Холодный Поезд"
+  },
+  {
+    "uz": "Sovuq Mashina",
+    "en": "Cold Car",
+    "ru": "Холодный Машина"
+  },
+  {
+    "uz": "Sovuq Kiyim",
+    "en": "Cold Clothes",
+    "ru": "Холодный Одежда"
+  },
+  {
+    "uz": "Sovuq Poyafzal",
+    "en": "Cold Shoes",
+    "ru": "Холодный Обувь"
+  },
+  {
+    "uz": "Sovuq Sumka",
+    "en": "Cold Bag",
+    "ru": "Холодный Сумка"
+  },
+  {
+    "uz": "Oson Kitob",
+    "en": "Easy Book",
+    "ru": "Легкий Книга"
+  },
+  {
+    "uz": "Oson Qalam",
+    "en": "Easy Pencil",
+    "ru": "Легкий Карандаш"
+  },
+  {
+    "uz": "Oson Daftar",
+    "en": "Easy Notebook",
+    "ru": "Легкий Тетрадь"
+  },
+  {
+    "uz": "Oson Maktab",
+    "en": "Easy School",
+    "ru": "Легкий Школа"
+  },
+  {
+    "uz": "Oson Shahar",
+    "en": "Easy City",
+    "ru": "Легкий Город"
+  },
+  {
+    "uz": "Oson Uy",
+    "en": "Easy House",
+    "ru": "Легкий Дом"
+  },
+  {
+    "uz": "Oson Suv",
+    "en": "Easy Water",
+    "ru": "Легкий Вода"
+  },
+  {
+    "uz": "Oson Non",
+    "en": "Easy Bread",
+    "ru": "Легкий Хлеб"
+  },
+  {
+    "uz": "Oson Sut",
+    "en": "Easy Milk",
+    "ru": "Легкий Молоко"
+  },
+  {
+    "uz": "Oson Choy",
+    "en": "Easy Tea",
+    "ru": "Легкий Чай"
+  },
+  {
+    "uz": "Oson Qahva",
+    "en": "Easy Coffee",
+    "ru": "Легкий Кофе"
+  },
+  {
+    "uz": "Oson Shakar",
+    "en": "Easy Sugar",
+    "ru": "Легкий Сахар"
+  },
+  {
+    "uz": "Oson Samolyot",
+    "en": "Easy Plane",
+    "ru": "Легкий Самолет"
+  },
+  {
+    "uz": "Oson Poyezd",
+    "en": "Easy Train",
+    "ru": "Легкий Поезд"
+  },
+  {
+    "uz": "Oson Mashina",
+    "en": "Easy Car",
+    "ru": "Легкий Машина"
+  },
+  {
+    "uz": "Oson Kiyim",
+    "en": "Easy Clothes",
+    "ru": "Легкий Одежда"
+  },
+  {
+    "uz": "Oson Poyafzal",
+    "en": "Easy Shoes",
+    "ru": "Легкий Обувь"
+  },
+  {
+    "uz": "Oson Sumka",
+    "en": "Easy Bag",
+    "ru": "Легкий Сумка"
+  },
+  {
+    "uz": "Qiyin Kitob",
+    "en": "Difficult Book",
+    "ru": "Трудный Книга"
+  },
+  {
+    "uz": "Qiyin Qalam",
+    "en": "Difficult Pencil",
+    "ru": "Трудный Карандаш"
+  },
+  {
+    "uz": "Qiyin Daftar",
+    "en": "Difficult Notebook",
+    "ru": "Трудный Тетрадь"
+  },
+  {
+    "uz": "Qiyin Maktab",
+    "en": "Difficult School",
+    "ru": "Трудный Школа"
+  },
+  {
+    "uz": "Qiyin Shahar",
+    "en": "Difficult City",
+    "ru": "Трудный Город"
+  },
+  {
+    "uz": "Qiyin Uy",
+    "en": "Difficult House",
+    "ru": "Трудный Дом"
+  },
+  {
+    "uz": "Qiyin Suv",
+    "en": "Difficult Water",
+    "ru": "Трудный Вода"
+  },
+  {
+    "uz": "Qiyin Non",
+    "en": "Difficult Bread",
+    "ru": "Трудный Хлеб"
+  },
+  {
+    "uz": "Qiyin Sut",
+    "en": "Difficult Milk",
+    "ru": "Трудный Молоко"
+  },
+  {
+    "uz": "Qiyin Choy",
+    "en": "Difficult Tea",
+    "ru": "Трудный Чай"
+  },
+  {
+    "uz": "Qiyin Qahva",
+    "en": "Difficult Coffee",
+    "ru": "Трудный Кофе"
+  },
+  {
+    "uz": "Qiyin Shakar",
+    "en": "Difficult Sugar",
+    "ru": "Трудный Сахар"
+  },
+  {
+    "uz": "Qiyin Samolyot",
+    "en": "Difficult Plane",
+    "ru": "Трудный Самолет"
+  },
+  {
+    "uz": "Qiyin Poyezd",
+    "en": "Difficult Train",
+    "ru": "Трудный Поезд"
+  },
+  {
+    "uz": "Qiyin Mashina",
+    "en": "Difficult Car",
+    "ru": "Трудный Машина"
+  },
+  {
+    "uz": "Qiyin Kiyim",
+    "en": "Difficult Clothes",
+    "ru": "Трудный Одежда"
+  },
+  {
+    "uz": "Qiyin Poyafzal",
+    "en": "Difficult Shoes",
+    "ru": "Трудный Обувь"
+  },
+  {
+    "uz": "Qiyin Sumka",
+    "en": "Difficult Bag",
+    "ru": "Трудный Сумка"
+  },
+  {
+    "uz": "Boy Kitob",
+    "en": "Rich Book",
+    "ru": "Богатый Книга"
+  },
+  {
+    "uz": "Boy Qalam",
+    "en": "Rich Pencil",
+    "ru": "Богатый Карандаш"
+  },
+  {
+    "uz": "Boy Daftar",
+    "en": "Rich Notebook",
+    "ru": "Богатый Тетрадь"
+  },
+  {
+    "uz": "Boy Maktab",
+    "en": "Rich School",
+    "ru": "Богатый Школа"
+  },
+  {
+    "uz": "Boy Shahar",
+    "en": "Rich City",
+    "ru": "Богатый Город"
+  },
+  {
+    "uz": "Boy Uy",
+    "en": "Rich House",
+    "ru": "Богатый Дом"
+  },
+  {
+    "uz": "Boy Suv",
+    "en": "Rich Water",
+    "ru": "Богатый Вода"
+  },
+  {
+    "uz": "Boy Non",
+    "en": "Rich Bread",
+    "ru": "Богатый Хлеб"
+  },
+  {
+    "uz": "Boy Sut",
+    "en": "Rich Milk",
+    "ru": "Богатый Молоко"
+  },
+  {
+    "uz": "Boy Choy",
+    "en": "Rich Tea",
+    "ru": "Богатый Чай"
+  },
+  {
+    "uz": "Boy Qahva",
+    "en": "Rich Coffee",
+    "ru": "Богатый Кофе"
+  },
+  {
+    "uz": "Boy Shakar",
+    "en": "Rich Sugar",
+    "ru": "Богатый Сахар"
+  },
+  {
+    "uz": "Boy Samolyot",
+    "en": "Rich Plane",
+    "ru": "Богатый Самолет"
+  },
+  {
+    "uz": "Boy Poyezd",
+    "en": "Rich Train",
+    "ru": "Богатый Поезд"
+  },
+  {
+    "uz": "Boy Mashina",
+    "en": "Rich Car",
+    "ru": "Богатый Машина"
+  },
+  {
+    "uz": "Boy Kiyim",
+    "en": "Rich Clothes",
+    "ru": "Богатый Одежда"
+  },
+  {
+    "uz": "Boy Poyafzal",
+    "en": "Rich Shoes",
+    "ru": "Богатый Обувь"
+  },
+  {
+    "uz": "Boy Sumka",
+    "en": "Rich Bag",
+    "ru": "Богатый Сумка"
+  },
+  {
+    "uz": "Kambag'al Kitob",
+    "en": "Poor Book",
+    "ru": "Бедный Книга"
+  },
+  {
+    "uz": "Kambag'al Qalam",
+    "en": "Poor Pencil",
+    "ru": "Бедный Карандаш"
+  },
+  {
+    "uz": "Kambag'al Daftar",
+    "en": "Poor Notebook",
+    "ru": "Бедный Тетрадь"
+  },
+  {
+    "uz": "Kambag'al Maktab",
+    "en": "Poor School",
+    "ru": "Бедный Школа"
+  },
+  {
+    "uz": "Kambag'al Shahar",
+    "en": "Poor City",
+    "ru": "Бедный Город"
+  },
+  {
+    "uz": "Kambag'al Uy",
+    "en": "Poor House",
+    "ru": "Бедный Дом"
+  },
+  {
+    "uz": "Kambag'al Suv",
+    "en": "Poor Water",
+    "ru": "Бедный Вода"
+  },
+  {
+    "uz": "Kambag'al Non",
+    "en": "Poor Bread",
+    "ru": "Бедный Хлеб"
+  },
+  {
+    "uz": "Kambag'al Sut",
+    "en": "Poor Milk",
+    "ru": "Бедный Молоко"
+  },
+  {
+    "uz": "Kambag'al Choy",
+    "en": "Poor Tea",
+    "ru": "Бедный Чай"
+  },
+  {
+    "uz": "Kambag'al Qahva",
+    "en": "Poor Coffee",
+    "ru": "Бедный Кофе"
+  },
+  {
+    "uz": "Kambag'al Shakar",
+    "en": "Poor Sugar",
+    "ru": "Бедный Сахар"
+  },
+  {
+    "uz": "Kambag'al Samolyot",
+    "en": "Poor Plane",
+    "ru": "Бедный Самолет"
+  },
+  {
+    "uz": "Kambag'al Poyezd",
+    "en": "Poor Train",
+    "ru": "Бедный Поезд"
+  },
+  {
+    "uz": "Kambag'al Mashina",
+    "en": "Poor Car",
+    "ru": "Бедный Машина"
+  },
+  {
+    "uz": "Kambag'al Kiyim",
+    "en": "Poor Clothes",
+    "ru": "Бедный Одежда"
+  },
+  {
+    "uz": "Kambag'al Poyafzal",
+    "en": "Poor Shoes",
+    "ru": "Бедный Обувь"
+  },
+  {
+    "uz": "Kambag'al Sumka",
+    "en": "Poor Bag",
+    "ru": "Бедный Сумка"
+  },
+  {
+    "uz": "Aqlli Kitob",
+    "en": "Smart Book",
+    "ru": "Умный Книга"
+  },
+  {
+    "uz": "Aqlli Qalam",
+    "en": "Smart Pencil",
+    "ru": "Умный Карандаш"
+  },
+  {
+    "uz": "Aqlli Daftar",
+    "en": "Smart Notebook",
+    "ru": "Умный Тетрадь"
+  },
+  {
+    "uz": "Aqlli Maktab",
+    "en": "Smart School",
+    "ru": "Умный Школа"
+  },
+  {
+    "uz": "Aqlli Shahar",
+    "en": "Smart City",
+    "ru": "Умный Город"
+  },
+  {
+    "uz": "Aqlli Uy",
+    "en": "Smart House",
+    "ru": "Умный Дом"
+  },
+  {
+    "uz": "Aqlli Suv",
+    "en": "Smart Water",
+    "ru": "Умный Вода"
+  },
+  {
+    "uz": "Aqlli Non",
+    "en": "Smart Bread",
+    "ru": "Умный Хлеб"
+  },
+  {
+    "uz": "Aqlli Sut",
+    "en": "Smart Milk",
+    "ru": "Умный Молоко"
+  },
+  {
+    "uz": "Aqlli Choy",
+    "en": "Smart Tea",
+    "ru": "Умный Чай"
+  },
+  {
+    "uz": "Aqlli Qahva",
+    "en": "Smart Coffee",
+    "ru": "Умный Кофе"
+  },
+  {
+    "uz": "Aqlli Shakar",
+    "en": "Smart Sugar",
+    "ru": "Умный Сахар"
+  },
+  {
+    "uz": "Aqlli Samolyot",
+    "en": "Smart Plane",
+    "ru": "Умный Самолет"
+  },
+  {
+    "uz": "Aqlli Poyezd",
+    "en": "Smart Train",
+    "ru": "Умный Поезд"
+  },
+  {
+    "uz": "Aqlli Mashina",
+    "en": "Smart Car",
+    "ru": "Умный Машина"
+  },
+  {
+    "uz": "Aqlli Kiyim",
+    "en": "Smart Clothes",
+    "ru": "Умный Одежда"
+  },
+  {
+    "uz": "Aqlli Poyafzal",
+    "en": "Smart Shoes",
+    "ru": "Умный Обувь"
+  },
+  {
+    "uz": "Aqlli Sumka",
+    "en": "Smart Bag",
+    "ru": "Умный Сумка"
+  },
+  {
+    "uz": "Kuchsiz Kitob",
+    "en": "Weak Book",
+    "ru": "Слабый Книга"
+  },
+  {
+    "uz": "Kuchsiz Qalam",
+    "en": "Weak Pencil",
+    "ru": "Слабый Карандаш"
+  },
+  {
+    "uz": "Kuchsiz Daftar",
+    "en": "Weak Notebook",
+    "ru": "Слабый Тетрадь"
+  },
+  {
+    "uz": "Kuchsiz Maktab",
+    "en": "Weak School",
+    "ru": "Слабый Школа"
+  },
+  {
+    "uz": "Kuchsiz Shahar",
+    "en": "Weak City",
+    "ru": "Слабый Город"
+  },
+  {
+    "uz": "Kuchsiz Uy",
+    "en": "Weak House",
+    "ru": "Слабый Дом"
+  },
+  {
+    "uz": "Kuchsiz Suv",
+    "en": "Weak Water",
+    "ru": "Слабый Вода"
+  },
+  {
+    "uz": "Kuchsiz Non",
+    "en": "Weak Bread",
+    "ru": "Слабый Хлеб"
+  },
+  {
+    "uz": "Kuchsiz Sut",
+    "en": "Weak Milk",
+    "ru": "Слабый Молоко"
+  },
+  {
+    "uz": "Kuchsiz Choy",
+    "en": "Weak Tea",
+    "ru": "Слабый Чай"
+  },
+  {
+    "uz": "Kuchsiz Qahva",
+    "en": "Weak Coffee",
+    "ru": "Слабый Кофе"
+  },
+  {
+    "uz": "Kuchsiz Shakar",
+    "en": "Weak Sugar",
+    "ru": "Слабый Сахар"
+  },
+  {
+    "uz": "Kuchsiz Samolyot",
+    "en": "Weak Plane",
+    "ru": "Слабый Самолет"
+  },
+  {
+    "uz": "Kuchsiz Poyezd",
+    "en": "Weak Train",
+    "ru": "Слабый Поезд"
+  },
+  {
+    "uz": "Kuchsiz Mashina",
+    "en": "Weak Car",
+    "ru": "Слабый Машина"
+  },
+  {
+    "uz": "Kuchsiz Kiyim",
+    "en": "Weak Clothes",
+    "ru": "Слабый Одежда"
+  },
+  {
+    "uz": "Kuchsiz Poyafzal",
+    "en": "Weak Shoes",
+    "ru": "Слабый Обувь"
+  },
+  {
+    "uz": "Kuchsiz Sumka",
+    "en": "Weak Bag",
+    "ru": "Слабый Сумка"
+  },
+  {
+    "uz": "Kuchli Kitob",
+    "en": "Strong Book",
+    "ru": "Сильный Книга"
+  },
+  {
+    "uz": "Kuchli Qalam",
+    "en": "Strong Pencil",
+    "ru": "Сильный Карандаш"
+  },
+  {
+    "uz": "Kuchli Daftar",
+    "en": "Strong Notebook",
+    "ru": "Сильный Тетрадь"
+  },
+  {
+    "uz": "Kuchli Maktab",
+    "en": "Strong School",
+    "ru": "Сильный Школа"
+  },
+  {
+    "uz": "Kuchli Shahar",
+    "en": "Strong City",
+    "ru": "Сильный Город"
+  },
+  {
+    "uz": "Kuchli Uy",
+    "en": "Strong House",
+    "ru": "Сильный Дом"
+  },
+  {
+    "uz": "Kuchli Suv",
+    "en": "Strong Water",
+    "ru": "Сильный Вода"
+  },
+  {
+    "uz": "Kuchli Non",
+    "en": "Strong Bread",
+    "ru": "Сильный Хлеб"
+  },
+  {
+    "uz": "Kuchli Sut",
+    "en": "Strong Milk",
+    "ru": "Сильный Молоко"
+  },
+  {
+    "uz": "Kuchli Choy",
+    "en": "Strong Tea",
+    "ru": "Сильный Чай"
+  },
+  {
+    "uz": "Kuchli Qahva",
+    "en": "Strong Coffee",
+    "ru": "Сильный Кофе"
+  },
+  {
+    "uz": "Kuchli Shakar",
+    "en": "Strong Sugar",
+    "ru": "Сильный Сахар"
+  },
+  {
+    "uz": "Kuchli Samolyot",
+    "en": "Strong Plane",
+    "ru": "Сильный Самолет"
+  },
+  {
+    "uz": "Kuchli Poyezd",
+    "en": "Strong Train",
+    "ru": "Сильный Поезд"
+  },
+  {
+    "uz": "Kuchli Mashina",
+    "en": "Strong Car",
+    "ru": "Сильный Машина"
+  },
+  {
+    "uz": "Kuchli Kiyim",
+    "en": "Strong Clothes",
+    "ru": "Сильный Одежда"
+  },
+  {
+    "uz": "Kuchli Poyafzal",
+    "en": "Strong Shoes",
+    "ru": "Сильный Обувь"
+  },
+  {
+    "uz": "Kuchli Sumka",
+    "en": "Strong Bag",
+    "ru": "Сильный Сумка"
+  },
+  {
+    "uz": "Uzoq Kitob",
+    "en": "Far Book",
+    "ru": "Далекий Книга"
+  },
+  {
+    "uz": "Uzoq Qalam",
+    "en": "Far Pencil",
+    "ru": "Далекий Карандаш"
+  },
+  {
+    "uz": "Uzoq Daftar",
+    "en": "Far Notebook",
+    "ru": "Далекий Тетрадь"
+  },
+  {
+    "uz": "Uzoq Maktab",
+    "en": "Far School",
+    "ru": "Далекий Школа"
+  },
+  {
+    "uz": "Uzoq Shahar",
+    "en": "Far City",
+    "ru": "Далекий Город"
+  },
+  {
+    "uz": "Uzoq Uy",
+    "en": "Far House",
+    "ru": "Далекий Дом"
+  },
+  {
+    "uz": "Uzoq Suv",
+    "en": "Far Water",
+    "ru": "Далекий Вода"
+  },
+  {
+    "uz": "Uzoq Non",
+    "en": "Far Bread",
+    "ru": "Далекий Хлеб"
+  },
+  {
+    "uz": "Uzoq Sut",
+    "en": "Far Milk",
+    "ru": "Далекий Молоко"
+  },
+  {
+    "uz": "Uzoq Choy",
+    "en": "Far Tea",
+    "ru": "Далекий Чай"
+  },
+  {
+    "uz": "Uzoq Qahva",
+    "en": "Far Coffee",
+    "ru": "Далекий Кофе"
+  },
+  {
+    "uz": "Uzoq Shakar",
+    "en": "Far Sugar",
+    "ru": "Далекий Сахар"
+  },
+  {
+    "uz": "Uzoq Samolyot",
+    "en": "Far Plane",
+    "ru": "Далекий Самолет"
+  },
+  {
+    "uz": "Uzoq Poyezd",
+    "en": "Far Train",
+    "ru": "Далекий Поезд"
+  },
+  {
+    "uz": "Uzoq Mashina",
+    "en": "Far Car",
+    "ru": "Далекий Машина"
+  },
+  {
+    "uz": "Uzoq Kiyim",
+    "en": "Far Clothes",
+    "ru": "Далекий Одежда"
+  },
+  {
+    "uz": "Uzoq Poyafzal",
+    "en": "Far Shoes",
+    "ru": "Далекий Обувь"
+  },
+  {
+    "uz": "Uzoq Sumka",
+    "en": "Far Bag",
+    "ru": "Далекий Сумка"
+  },
+  {
+    "uz": "Katta Kitob",
+    "en": "Big Book",
+    "ru": "Большой Книга"
+  },
+  {
+    "uz": "Katta Qalam",
+    "en": "Big Pencil",
+    "ru": "Большой Карандаш"
+  },
+  {
+    "uz": "Katta Daftar",
+    "en": "Big Notebook",
+    "ru": "Большой Тетрадь"
+  },
+  {
+    "uz": "Katta Maktab",
+    "en": "Big School",
+    "ru": "Большой Школа"
+  },
+  {
+    "uz": "Katta Shahar",
+    "en": "Big City",
+    "ru": "Большой Город"
+  },
+  {
+    "uz": "Katta Uy",
+    "en": "Big House",
+    "ru": "Большой Дом"
+  },
+  {
+    "uz": "Katta Suv",
+    "en": "Big Water",
+    "ru": "Большой Вода"
+  },
+  {
+    "uz": "Katta Non",
+    "en": "Big Bread",
+    "ru": "Большой Хлеб"
+  },
+  {
+    "uz": "Katta Sut",
+    "en": "Big Milk",
+    "ru": "Большой Молоко"
+  },
+  {
+    "uz": "Katta Choy",
+    "en": "Big Tea",
+    "ru": "Большой Чай"
+  },
+  {
+    "uz": "Katta Qahva",
+    "en": "Big Coffee",
+    "ru": "Большой Кофе"
+  },
+  {
+    "uz": "Katta Shakar",
+    "en": "Big Sugar",
+    "ru": "Большой Сахар"
+  },
+  {
+    "uz": "Katta Samolyot",
+    "en": "Big Plane",
+    "ru": "Большой Самолет"
+  },
+  {
+    "uz": "Katta Poyezd",
+    "en": "Big Train",
+    "ru": "Большой Поезд"
+  },
+  {
+    "uz": "Katta Mashina",
+    "en": "Big Car",
+    "ru": "Большой Машина"
+  },
+  {
+    "uz": "Katta Kiyim",
+    "en": "Big Clothes",
+    "ru": "Большой Одежда"
+  },
+  {
+    "uz": "Katta Poyafzal",
+    "en": "Big Shoes",
+    "ru": "Большой Обувь"
+  },
+  {
+    "uz": "Katta Sumka",
+    "en": "Big Bag",
+    "ru": "Большой Сумка"
+  },
+  {
+    "uz": "Kichik Kitob",
+    "en": "Small Book",
+    "ru": "Маленький Книга"
+  },
+  {
+    "uz": "Kichik Qalam",
+    "en": "Small Pencil",
+    "ru": "Маленький Карандаш"
+  },
+  {
+    "uz": "Kichik Daftar",
+    "en": "Small Notebook",
+    "ru": "Маленький Тетрадь"
+  },
+  {
+    "uz": "Kichik Maktab",
+    "en": "Small School",
+    "ru": "Маленький Школа"
+  },
+  {
+    "uz": "Kichik Shahar",
+    "en": "Small City",
+    "ru": "Маленький Город"
+  },
+  {
+    "uz": "Kichik Uy",
+    "en": "Small House",
+    "ru": "Маленький Дом"
+  },
+  {
+    "uz": "Kichik Suv",
+    "en": "Small Water",
+    "ru": "Маленький Вода"
+  },
+  {
+    "uz": "Kichik Non",
+    "en": "Small Bread",
+    "ru": "Маленький Хлеб"
+  },
+  {
+    "uz": "Kichik Sut",
+    "en": "Small Milk",
+    "ru": "Маленький Молоко"
+  },
+  {
+    "uz": "Kichik Choy",
+    "en": "Small Tea",
+    "ru": "Маленький Чай"
+  },
+  {
+    "uz": "Kichik Qahva",
+    "en": "Small Coffee",
+    "ru": "Маленький Кофе"
+  },
+  {
+    "uz": "Kichik Shakar",
+    "en": "Small Sugar",
+    "ru": "Маленький Сахар"
+  },
+  {
+    "uz": "Kichik Samolyot",
+    "en": "Small Plane",
+    "ru": "Маленький Самолет"
+  },
+  {
+    "uz": "Kichik Poyezd",
+    "en": "Small Train",
+    "ru": "Маленький Поезд"
+  },
+  {
+    "uz": "Kichik Mashina",
+    "en": "Small Car",
+    "ru": "Маленький Машина"
+  },
+  {
+    "uz": "Kichik Kiyim",
+    "en": "Small Clothes",
+    "ru": "Маленький Одежда"
+  },
+  {
+    "uz": "Kichik Poyafzal",
+    "en": "Small Shoes",
+    "ru": "Маленький Обувь"
+  },
+  {
+    "uz": "Kichik Sumka",
+    "en": "Small Bag",
+    "ru": "Маленький Сумка"
+  },
+  {
+    "uz": "Yaxshi Kitob",
+    "en": "Good Book",
+    "ru": "Хороший Книга"
+  },
+  {
+    "uz": "Yaxshi Qalam",
+    "en": "Good Pencil",
+    "ru": "Хороший Карандаш"
+  },
+  {
+    "uz": "Yaxshi Daftar",
+    "en": "Good Notebook",
+    "ru": "Хороший Тетрадь"
+  },
+  {
+    "uz": "Yaxshi Maktab",
+    "en": "Good School",
+    "ru": "Хороший Школа"
+  },
+  {
+    "uz": "Yaxshi Shahar",
+    "en": "Good City",
+    "ru": "Хороший Город"
+  },
+  {
+    "uz": "Yaxshi Uy",
+    "en": "Good House",
+    "ru": "Хороший Дом"
+  },
+  {
+    "uz": "Yaxshi Suv",
+    "en": "Good Water",
+    "ru": "Хороший Вода"
+  },
+  {
+    "uz": "Yaxshi Non",
+    "en": "Good Bread",
+    "ru": "Хороший Хлеб"
+  },
+  {
+    "uz": "Yaxshi Sut",
+    "en": "Good Milk",
+    "ru": "Хороший Молоко"
+  },
+  {
+    "uz": "Yaxshi Choy",
+    "en": "Good Tea",
+    "ru": "Хороший Чай"
+  },
+  {
+    "uz": "Yaxshi Qahva",
+    "en": "Good Coffee",
+    "ru": "Хороший Кофе"
+  },
+  {
+    "uz": "Yaxshi Shakar",
+    "en": "Good Sugar",
+    "ru": "Хороший Сахар"
+  },
+  {
+    "uz": "Yaxshi Samolyot",
+    "en": "Good Plane",
+    "ru": "Хороший Самолет"
+  },
+  {
+    "uz": "Yaxshi Poyezd",
+    "en": "Good Train",
+    "ru": "Хороший Поезд"
+  },
+  {
+    "uz": "Yaxshi Mashina",
+    "en": "Good Car",
+    "ru": "Хороший Машина"
+  },
+  {
+    "uz": "Yaxshi Kiyim",
+    "en": "Good Clothes",
+    "ru": "Хороший Одежда"
+  },
+  {
+    "uz": "Yaxshi Poyafzal",
+    "en": "Good Shoes",
+    "ru": "Хороший Обувь"
+  },
+  {
+    "uz": "Yaxshi Sumka",
+    "en": "Good Bag",
+    "ru": "Хороший Сумка"
+  },
+  {
+    "uz": "Yomon Kitob",
+    "en": "Bad Book",
+    "ru": "Плохой Книга"
+  },
+  {
+    "uz": "Yomon Qalam",
+    "en": "Bad Pencil",
+    "ru": "Плохой Карандаш"
+  },
+  {
+    "uz": "Yomon Daftar",
+    "en": "Bad Notebook",
+    "ru": "Плохой Тетрадь"
+  },
+  {
+    "uz": "Yomon Maktab",
+    "en": "Bad School",
+    "ru": "Плохой Школа"
+  },
+  {
+    "uz": "Yomon Shahar",
+    "en": "Bad City",
+    "ru": "Плохой Город"
+  },
+  {
+    "uz": "Yomon Uy",
+    "en": "Bad House",
+    "ru": "Плохой Дом"
+  },
+  {
+    "uz": "Yomon Suv",
+    "en": "Bad Water",
+    "ru": "Плохой Вода"
+  },
+  {
+    "uz": "Yomon Non",
+    "en": "Bad Bread",
+    "ru": "Плохой Хлеб"
+  },
+  {
+    "uz": "Yomon Sut",
+    "en": "Bad Milk",
+    "ru": "Плохой Молоко"
+  },
+  {
+    "uz": "Yomon Choy",
+    "en": "Bad Tea",
+    "ru": "Плохой Чай"
+  },
+  {
+    "uz": "Yomon Qahva",
+    "en": "Bad Coffee",
+    "ru": "Плохой Кофе"
+  },
+  {
+    "uz": "Yomon Shakar",
+    "en": "Bad Sugar",
+    "ru": "Плохой Сахар"
+  },
+  {
+    "uz": "Yomon Samolyot",
+    "en": "Bad Plane",
+    "ru": "Плохой Самолет"
+  },
+  {
+    "uz": "Yomon Poyezd",
+    "en": "Bad Train",
+    "ru": "Плохой Поезд"
+  },
+  {
+    "uz": "Yomon Mashina",
+    "en": "Bad Car",
+    "ru": "Плохой Машина"
+  },
+  {
+    "uz": "Yomon Kiyim",
+    "en": "Bad Clothes",
+    "ru": "Плохой Одежда"
+  },
+  {
+    "uz": "Yomon Poyafzal",
+    "en": "Bad Shoes",
+    "ru": "Плохой Обувь"
+  },
+  {
+    "uz": "Yomon Sumka",
+    "en": "Bad Bag",
+    "ru": "Плохой Сумка"
+  },
+  {
+    "uz": "Yangi Kitob",
+    "en": "New Book",
+    "ru": "Новый Книга"
+  },
+  {
+    "uz": "Yangi Qalam",
+    "en": "New Pencil",
+    "ru": "Новый Карандаш"
+  },
+  {
+    "uz": "Yangi Daftar",
+    "en": "New Notebook",
+    "ru": "Новый Тетрадь"
+  },
+  {
+    "uz": "Yangi Maktab",
+    "en": "New School",
+    "ru": "Новый Школа"
+  },
+  {
+    "uz": "Yangi Shahar",
+    "en": "New City",
+    "ru": "Новый Город"
+  },
+  {
+    "uz": "Yangi Uy",
+    "en": "New House",
+    "ru": "Новый Дом"
+  },
+  {
+    "uz": "Yangi Suv",
+    "en": "New Water",
+    "ru": "Новый Вода"
+  },
+  {
+    "uz": "Yangi Non",
+    "en": "New Bread",
+    "ru": "Новый Хлеб"
+  },
+  {
+    "uz": "Yangi Sut",
+    "en": "New Milk",
+    "ru": "Новый Молоко"
+  },
+  {
+    "uz": "Yangi Choy",
+    "en": "New Tea",
+    "ru": "Новый Чай"
+  },
+  {
+    "uz": "Yangi Qahva",
+    "en": "New Coffee",
+    "ru": "Новый Кофе"
+  },
+  {
+    "uz": "Yangi Shakar",
+    "en": "New Sugar",
+    "ru": "Новый Сахар"
+  },
+  {
+    "uz": "Yangi Samolyot",
+    "en": "New Plane",
+    "ru": "Новый Самолет"
+  },
+  {
+    "uz": "Yangi Poyezd",
+    "en": "New Train",
+    "ru": "Новый Поезд"
+  },
+  {
+    "uz": "Yangi Mashina",
+    "en": "New Car",
+    "ru": "Новый Машина"
+  },
+  {
+    "uz": "Yangi Kiyim",
+    "en": "New Clothes",
+    "ru": "Новый Одежда"
+  },
+  {
+    "uz": "Yangi Poyafzal",
+    "en": "New Shoes",
+    "ru": "Новый Обувь"
+  },
+  {
+    "uz": "Yangi Sumka",
+    "en": "New Bag",
+    "ru": "Новый Сумка"
+  },
+  {
+    "uz": "Eski Kitob",
+    "en": "Old Book",
+    "ru": "Старый Книга"
+  },
+  {
+    "uz": "Eski Qalam",
+    "en": "Old Pencil",
+    "ru": "Старый Карандаш"
+  },
+  {
+    "uz": "Eski Daftar",
+    "en": "Old Notebook",
+    "ru": "Старый Тетрадь"
+  },
+  {
+    "uz": "Eski Maktab",
+    "en": "Old School",
+    "ru": "Старый Школа"
+  },
+  {
+    "uz": "Eski Shahar",
+    "en": "Old City",
+    "ru": "Старый Город"
+  },
+  {
+    "uz": "Eski Uy",
+    "en": "Old House",
+    "ru": "Старый Дом"
+  },
+  {
+    "uz": "Eski Suv",
+    "en": "Old Water",
+    "ru": "Старый Вода"
+  },
+  {
+    "uz": "Eski Non",
+    "en": "Old Bread",
+    "ru": "Старый Хлеб"
+  },
+  {
+    "uz": "Eski Sut",
+    "en": "Old Milk",
+    "ru": "Старый Молоко"
+  },
+  {
+    "uz": "Eski Choy",
+    "en": "Old Tea",
+    "ru": "Старый Чай"
+  },
+  {
+    "uz": "Eski Qahva",
+    "en": "Old Coffee",
+    "ru": "Старый Кофе"
+  },
+  {
+    "uz": "Eski Shakar",
+    "en": "Old Sugar",
+    "ru": "Старый Сахар"
+  },
+  {
+    "uz": "Eski Samolyot",
+    "en": "Old Plane",
+    "ru": "Старый Самолет"
+  },
+  {
+    "uz": "Eski Poyezd",
+    "en": "Old Train",
+    "ru": "Старый Поезд"
+  },
+  {
+    "uz": "Eski Mashina",
+    "en": "Old Car",
+    "ru": "Старый Машина"
+  },
+  {
+    "uz": "Eski Kiyim",
+    "en": "Old Clothes",
+    "ru": "Старый Одежда"
+  },
+  {
+    "uz": "Eski Poyafzal",
+    "en": "Old Shoes",
+    "ru": "Старый Обувь"
+  },
+  {
+    "uz": "Eski Sumka",
+    "en": "Old Bag",
+    "ru": "Старый Сумка"
+  },
+  {
+    "uz": "Chiroyli Kitob",
+    "en": "Beautiful Book",
+    "ru": "Красивый Книга"
+  },
+  {
+    "uz": "Chiroyli Qalam",
+    "en": "Beautiful Pencil",
+    "ru": "Красивый Карандаш"
+  },
+  {
+    "uz": "Chiroyli Daftar",
+    "en": "Beautiful Notebook",
+    "ru": "Красивый Тетрадь"
+  },
+  {
+    "uz": "Chiroyli Maktab",
+    "en": "Beautiful School",
+    "ru": "Красивый Школа"
+  },
+  {
+    "uz": "Chiroyli Shahar",
+    "en": "Beautiful City",
+    "ru": "Красивый Город"
+  },
+  {
+    "uz": "Chiroyli Uy",
+    "en": "Beautiful House",
+    "ru": "Красивый Дом"
+  },
+  {
+    "uz": "Chiroyli Suv",
+    "en": "Beautiful Water",
+    "ru": "Красивый Вода"
+  },
+  {
+    "uz": "Chiroyli Non",
+    "en": "Beautiful Bread",
+    "ru": "Красивый Хлеб"
+  },
+  {
+    "uz": "Chiroyli Sut",
+    "en": "Beautiful Milk",
+    "ru": "Красивый Молоко"
+  },
+  {
+    "uz": "Chiroyli Choy",
+    "en": "Beautiful Tea",
+    "ru": "Красивый Чай"
+  },
+  {
+    "uz": "Chiroyli Qahva",
+    "en": "Beautiful Coffee",
+    "ru": "Красивый Кофе"
+  },
+  {
+    "uz": "Chiroyli Shakar",
+    "en": "Beautiful Sugar",
+    "ru": "Красивый Сахар"
+  },
+  {
+    "uz": "Chiroyli Samolyot",
+    "en": "Beautiful Plane",
+    "ru": "Красивый Самолет"
+  },
+  {
+    "uz": "Chiroyli Poyezd",
+    "en": "Beautiful Train",
+    "ru": "Красивый Поезд"
+  },
+  {
+    "uz": "Chiroyli Mashina",
+    "en": "Beautiful Car",
+    "ru": "Красивый Машина"
+  },
+  {
+    "uz": "Chiroyli Kiyim",
+    "en": "Beautiful Clothes",
+    "ru": "Красивый Одежда"
+  },
+  {
+    "uz": "Chiroyli Poyafzal",
+    "en": "Beautiful Shoes",
+    "ru": "Красивый Обувь"
+  },
+  {
+    "uz": "Chiroyli Sumka",
+    "en": "Beautiful Bag",
+    "ru": "Красивый Сумка"
+  },
+  {
+    "uz": "Xunuk Kitob",
+    "en": "Ugly Book",
+    "ru": "Уродливый Книга"
+  },
+  {
+    "uz": "Xunuk Qalam",
+    "en": "Ugly Pencil",
+    "ru": "Уродливый Карандаш"
+  },
+  {
+    "uz": "Xunuk Daftar",
+    "en": "Ugly Notebook",
+    "ru": "Уродливый Тетрадь"
+  },
+  {
+    "uz": "Xunuk Maktab",
+    "en": "Ugly School",
+    "ru": "Уродливый Школа"
+  },
+  {
+    "uz": "Xunuk Shahar",
+    "en": "Ugly City",
+    "ru": "Уродливый Город"
+  },
+  {
+    "uz": "Xunuk Uy",
+    "en": "Ugly House",
+    "ru": "Уродливый Дом"
+  },
+  {
+    "uz": "Xunuk Suv",
+    "en": "Ugly Water",
+    "ru": "Уродливый Вода"
+  },
+  {
+    "uz": "Xunuk Non",
+    "en": "Ugly Bread",
+    "ru": "Уродливый Хлеб"
+  },
+  {
+    "uz": "Xunuk Sut",
+    "en": "Ugly Milk",
+    "ru": "Уродливый Молоко"
+  },
+  {
+    "uz": "Xunuk Choy",
+    "en": "Ugly Tea",
+    "ru": "Уродливый Чай"
+  },
+  {
+    "uz": "Xunuk Qahva",
+    "en": "Ugly Coffee",
+    "ru": "Уродливый Кофе"
+  },
+  {
+    "uz": "Xunuk Shakar",
+    "en": "Ugly Sugar",
+    "ru": "Уродливый Сахар"
+  },
+  {
+    "uz": "Xunuk Samolyot",
+    "en": "Ugly Plane",
+    "ru": "Уродливый Самолет"
+  },
+  {
+    "uz": "Xunuk Poyezd",
+    "en": "Ugly Train",
+    "ru": "Уродливый Поезд"
+  },
+  {
+    "uz": "Xunuk Mashina",
+    "en": "Ugly Car",
+    "ru": "Уродливый Машина"
+  },
+  {
+    "uz": "Xunuk Kiyim",
+    "en": "Ugly Clothes",
+    "ru": "Уродливый Одежда"
+  },
+  {
+    "uz": "Xunuk Poyafzal",
+    "en": "Ugly Shoes",
+    "ru": "Уродливый Обувь"
+  },
+  {
+    "uz": "Xunuk Sumka",
+    "en": "Ugly Bag",
+    "ru": "Уродливый Сумка"
+  },
+  {
+    "uz": "Issiq Kitob",
+    "en": "Hot Book",
+    "ru": "Горячий Книга"
+  },
+  {
+    "uz": "Issiq Qalam",
+    "en": "Hot Pencil",
+    "ru": "Горячий Карандаш"
+  },
+  {
+    "uz": "Issiq Daftar",
+    "en": "Hot Notebook",
+    "ru": "Горячий Тетрадь"
+  },
+  {
+    "uz": "Issiq Maktab",
+    "en": "Hot School",
+    "ru": "Горячий Школа"
+  },
+  {
+    "uz": "Issiq Shahar",
+    "en": "Hot City",
+    "ru": "Горячий Город"
+  },
+  {
+    "uz": "Issiq Uy",
+    "en": "Hot House",
+    "ru": "Горячий Дом"
+  },
+  {
+    "uz": "Issiq Suv",
+    "en": "Hot Water",
+    "ru": "Горячий Вода"
+  },
+  {
+    "uz": "Issiq Non",
+    "en": "Hot Bread",
+    "ru": "Горячий Хлеб"
+  },
+  {
+    "uz": "Issiq Sut",
+    "en": "Hot Milk",
+    "ru": "Горячий Молоко"
+  },
+  {
+    "uz": "Issiq Choy",
+    "en": "Hot Tea",
+    "ru": "Горячий Чай"
+  },
+  {
+    "uz": "Issiq Qahva",
+    "en": "Hot Coffee",
+    "ru": "Горячий Кофе"
+  },
+  {
+    "uz": "Issiq Shakar",
+    "en": "Hot Sugar",
+    "ru": "Горячий Сахар"
+  },
+  {
+    "uz": "Issiq Samolyot",
+    "en": "Hot Plane",
+    "ru": "Горячий Самолет"
+  },
+  {
+    "uz": "Issiq Poyezd",
+    "en": "Hot Train",
+    "ru": "Горячий Поезд"
+  },
+  {
+    "uz": "Issiq Mashina",
+    "en": "Hot Car",
+    "ru": "Горячий Машина"
+  },
+  {
+    "uz": "Issiq Kiyim",
+    "en": "Hot Clothes",
+    "ru": "Горячий Одежда"
+  },
+  {
+    "uz": "Issiq Poyafzal",
+    "en": "Hot Shoes",
+    "ru": "Горячий Обувь"
+  },
+  {
+    "uz": "Issiq Sumka",
+    "en": "Hot Bag",
+    "ru": "Горячий Сумка"
+  },
+  {
+    "uz": "Sovuq Kitob",
+    "en": "Cold Book",
+    "ru": "Холодный Книга"
+  },
+  {
+    "uz": "Sovuq Qalam",
+    "en": "Cold Pencil",
+    "ru": "Холодный Карандаш"
+  },
+  {
+    "uz": "Sovuq Daftar",
+    "en": "Cold Notebook",
+    "ru": "Холодный Тетрадь"
+  },
+  {
+    "uz": "Sovuq Maktab",
+    "en": "Cold School",
+    "ru": "Холодный Школа"
+  },
+  {
+    "uz": "Sovuq Shahar",
+    "en": "Cold City",
+    "ru": "Холодный Город"
+  },
+  {
+    "uz": "Sovuq Uy",
+    "en": "Cold House",
+    "ru": "Холодный Дом"
+  },
+  {
+    "uz": "Sovuq Suv",
+    "en": "Cold Water",
+    "ru": "Холодный Вода"
+  },
+  {
+    "uz": "Sovuq Non",
+    "en": "Cold Bread",
+    "ru": "Холодный Хлеб"
+  },
+  {
+    "uz": "Sovuq Sut",
+    "en": "Cold Milk",
+    "ru": "Холодный Молоко"
+  },
+  {
+    "uz": "Sovuq Choy",
+    "en": "Cold Tea",
+    "ru": "Холодный Чай"
+  },
+  {
+    "uz": "Sovuq Qahva",
+    "en": "Cold Coffee",
+    "ru": "Холодный Кофе"
+  },
+  {
+    "uz": "Sovuq Shakar",
+    "en": "Cold Sugar",
+    "ru": "Холодный Сахар"
+  },
+  {
+    "uz": "Sovuq Samolyot",
+    "en": "Cold Plane",
+    "ru": "Холодный Самолет"
+  },
+  {
+    "uz": "Sovuq Poyezd",
+    "en": "Cold Train",
+    "ru": "Холодный Поезд"
+  },
+  {
+    "uz": "Sovuq Mashina",
+    "en": "Cold Car",
+    "ru": "Холодный Машина"
+  },
+  {
+    "uz": "Sovuq Kiyim",
+    "en": "Cold Clothes",
+    "ru": "Холодный Одежда"
+  },
+  {
+    "uz": "Sovuq Poyafzal",
+    "en": "Cold Shoes",
+    "ru": "Холодный Обувь"
+  },
+  {
+    "uz": "Sovuq Sumka",
+    "en": "Cold Bag",
+    "ru": "Холодный Сумка"
+  },
+  {
+    "uz": "Oson Kitob",
+    "en": "Easy Book",
+    "ru": "Легкий Книга"
+  },
+  {
+    "uz": "Oson Qalam",
+    "en": "Easy Pencil",
+    "ru": "Легкий Карандаш"
+  },
+  {
+    "uz": "Oson Daftar",
+    "en": "Easy Notebook",
+    "ru": "Легкий Тетрадь"
+  },
+  {
+    "uz": "Oson Maktab",
+    "en": "Easy School",
+    "ru": "Легкий Школа"
+  },
+  {
+    "uz": "Oson Shahar",
+    "en": "Easy City",
+    "ru": "Легкий Город"
+  },
+  {
+    "uz": "Oson Uy",
+    "en": "Easy House",
+    "ru": "Легкий Дом"
+  },
+  {
+    "uz": "Oson Suv",
+    "en": "Easy Water",
+    "ru": "Легкий Вода"
+  },
+  {
+    "uz": "Oson Non",
+    "en": "Easy Bread",
+    "ru": "Легкий Хлеб"
+  },
+  {
+    "uz": "Oson Sut",
+    "en": "Easy Milk",
+    "ru": "Легкий Молоко"
+  },
+  {
+    "uz": "Oson Choy",
+    "en": "Easy Tea",
+    "ru": "Легкий Чай"
+  },
+  {
+    "uz": "Oson Qahva",
+    "en": "Easy Coffee",
+    "ru": "Легкий Кофе"
+  },
+  {
+    "uz": "Oson Shakar",
+    "en": "Easy Sugar",
+    "ru": "Легкий Сахар"
+  },
+  {
+    "uz": "Oson Samolyot",
+    "en": "Easy Plane",
+    "ru": "Легкий Самолет"
+  },
+  {
+    "uz": "Oson Poyezd",
+    "en": "Easy Train",
+    "ru": "Легкий Поезд"
+  },
+  {
+    "uz": "Oson Mashina",
+    "en": "Easy Car",
+    "ru": "Легкий Машина"
+  },
+  {
+    "uz": "Oson Kiyim",
+    "en": "Easy Clothes",
+    "ru": "Легкий Одежда"
+  },
+  {
+    "uz": "Oson Poyafzal",
+    "en": "Easy Shoes",
+    "ru": "Легкий Обувь"
+  },
+  {
+    "uz": "Oson Sumka",
+    "en": "Easy Bag",
+    "ru": "Легкий Сумка"
+  },
+  {
+    "uz": "Qiyin Kitob",
+    "en": "Difficult Book",
+    "ru": "Трудный Книга"
+  },
+  {
+    "uz": "Qiyin Qalam",
+    "en": "Difficult Pencil",
+    "ru": "Трудный Карандаш"
+  },
+  {
+    "uz": "Qiyin Daftar",
+    "en": "Difficult Notebook",
+    "ru": "Трудный Тетрадь"
+  },
+  {
+    "uz": "Qiyin Maktab",
+    "en": "Difficult School",
+    "ru": "Трудный Школа"
+  },
+  {
+    "uz": "Qiyin Shahar",
+    "en": "Difficult City",
+    "ru": "Трудный Город"
+  },
+  {
+    "uz": "Qiyin Uy",
+    "en": "Difficult House",
+    "ru": "Трудный Дом"
+  },
+  {
+    "uz": "Qiyin Suv",
+    "en": "Difficult Water",
+    "ru": "Трудный Вода"
+  },
+  {
+    "uz": "Qiyin Non",
+    "en": "Difficult Bread",
+    "ru": "Трудный Хлеб"
+  },
+  {
+    "uz": "Qiyin Sut",
+    "en": "Difficult Milk",
+    "ru": "Трудный Молоко"
+  },
+  {
+    "uz": "Qiyin Choy",
+    "en": "Difficult Tea",
+    "ru": "Трудный Чай"
+  },
+  {
+    "uz": "Qiyin Qahva",
+    "en": "Difficult Coffee",
+    "ru": "Трудный Кофе"
+  },
+  {
+    "uz": "Qiyin Shakar",
+    "en": "Difficult Sugar",
+    "ru": "Трудный Сахар"
+  },
+  {
+    "uz": "Qiyin Samolyot",
+    "en": "Difficult Plane",
+    "ru": "Трудный Самолет"
+  },
+  {
+    "uz": "Qiyin Poyezd",
+    "en": "Difficult Train",
+    "ru": "Трудный Поезд"
+  },
+  {
+    "uz": "Qiyin Mashina",
+    "en": "Difficult Car",
+    "ru": "Трудный Машина"
+  },
+  {
+    "uz": "Qiyin Kiyim",
+    "en": "Difficult Clothes",
+    "ru": "Трудный Одежда"
+  },
+  {
+    "uz": "Qiyin Poyafzal",
+    "en": "Difficult Shoes",
+    "ru": "Трудный Обувь"
+  },
+  {
+    "uz": "Qiyin Sumka",
+    "en": "Difficult Bag",
+    "ru": "Трудный Сумка"
+  },
+  {
+    "uz": "Boy Kitob",
+    "en": "Rich Book",
+    "ru": "Богатый Книга"
+  },
+  {
+    "uz": "Boy Qalam",
+    "en": "Rich Pencil",
+    "ru": "Богатый Карандаш"
+  },
+  {
+    "uz": "Boy Daftar",
+    "en": "Rich Notebook",
+    "ru": "Богатый Тетрадь"
+  },
+  {
+    "uz": "Boy Maktab",
+    "en": "Rich School",
+    "ru": "Богатый Школа"
+  },
+  {
+    "uz": "Boy Shahar",
+    "en": "Rich City",
+    "ru": "Богатый Город"
+  },
+  {
+    "uz": "Boy Uy",
+    "en": "Rich House",
+    "ru": "Богатый Дом"
+  },
+  {
+    "uz": "Boy Suv",
+    "en": "Rich Water",
+    "ru": "Богатый Вода"
+  },
+  {
+    "uz": "Boy Non",
+    "en": "Rich Bread",
+    "ru": "Богатый Хлеб"
+  },
+  {
+    "uz": "Boy Sut",
+    "en": "Rich Milk",
+    "ru": "Богатый Молоко"
+  },
+  {
+    "uz": "Boy Choy",
+    "en": "Rich Tea",
+    "ru": "Богатый Чай"
+  },
+  {
+    "uz": "Boy Qahva",
+    "en": "Rich Coffee",
+    "ru": "Богатый Кофе"
+  },
+  {
+    "uz": "Boy Shakar",
+    "en": "Rich Sugar",
+    "ru": "Богатый Сахар"
+  },
+  {
+    "uz": "Boy Samolyot",
+    "en": "Rich Plane",
+    "ru": "Богатый Самолет"
+  },
+  {
+    "uz": "Boy Poyezd",
+    "en": "Rich Train",
+    "ru": "Богатый Поезд"
+  },
+  {
+    "uz": "Boy Mashina",
+    "en": "Rich Car",
+    "ru": "Богатый Машина"
+  },
+  {
+    "uz": "Boy Kiyim",
+    "en": "Rich Clothes",
+    "ru": "Богатый Одежда"
+  },
+  {
+    "uz": "Boy Poyafzal",
+    "en": "Rich Shoes",
+    "ru": "Богатый Обувь"
+  },
+  {
+    "uz": "Boy Sumka",
+    "en": "Rich Bag",
+    "ru": "Богатый Сумка"
+  },
+  {
+    "uz": "Kambag'al Kitob",
+    "en": "Poor Book",
+    "ru": "Бедный Книга"
+  },
+  {
+    "uz": "Kambag'al Qalam",
+    "en": "Poor Pencil",
+    "ru": "Бедный Карандаш"
+  },
+  {
+    "uz": "Kambag'al Daftar",
+    "en": "Poor Notebook",
+    "ru": "Бедный Тетрадь"
+  },
+  {
+    "uz": "Kambag'al Maktab",
+    "en": "Poor School",
+    "ru": "Бедный Школа"
+  },
+  {
+    "uz": "Kambag'al Shahar",
+    "en": "Poor City",
+    "ru": "Бедный Город"
+  },
+  {
+    "uz": "Kambag'al Uy",
+    "en": "Poor House",
+    "ru": "Бедный Дом"
+  },
+  {
+    "uz": "Kambag'al Suv",
+    "en": "Poor Water",
+    "ru": "Бедный Вода"
+  },
+  {
+    "uz": "Kambag'al Non",
+    "en": "Poor Bread",
+    "ru": "Бедный Хлеб"
+  },
+  {
+    "uz": "Kambag'al Sut",
+    "en": "Poor Milk",
+    "ru": "Бедный Молоко"
+  },
+  {
+    "uz": "Kambag'al Choy",
+    "en": "Poor Tea",
+    "ru": "Бедный Чай"
+  },
+  {
+    "uz": "Kambag'al Qahva",
+    "en": "Poor Coffee",
+    "ru": "Бедный Кофе"
+  },
+  {
+    "uz": "Kambag'al Shakar",
+    "en": "Poor Sugar",
+    "ru": "Бедный Сахар"
+  },
+  {
+    "uz": "Kambag'al Samolyot",
+    "en": "Poor Plane",
+    "ru": "Бедный Самолет"
+  },
+  {
+    "uz": "Kambag'al Poyezd",
+    "en": "Poor Train",
+    "ru": "Бедный Поезд"
+  },
+  {
+    "uz": "Kambag'al Mashina",
+    "en": "Poor Car",
+    "ru": "Бедный Машина"
+  },
+  {
+    "uz": "Kambag'al Kiyim",
+    "en": "Poor Clothes",
+    "ru": "Бедный Одежда"
+  },
+  {
+    "uz": "Kambag'al Poyafzal",
+    "en": "Poor Shoes",
+    "ru": "Бедный Обувь"
+  },
+  {
+    "uz": "Kambag'al Sumka",
+    "en": "Poor Bag",
+    "ru": "Бедный Сумка"
+  },
+  {
+    "uz": "Aqlli Kitob",
+    "en": "Smart Book",
+    "ru": "Умный Книга"
+  },
+  {
+    "uz": "Aqlli Qalam",
+    "en": "Smart Pencil",
+    "ru": "Умный Карандаш"
+  },
+  {
+    "uz": "Aqlli Daftar",
+    "en": "Smart Notebook",
+    "ru": "Умный Тетрадь"
+  },
+  {
+    "uz": "Aqlli Maktab",
+    "en": "Smart School",
+    "ru": "Умный Школа"
+  },
+  {
+    "uz": "Aqlli Shahar",
+    "en": "Smart City",
+    "ru": "Умный Город"
+  },
+  {
+    "uz": "Aqlli Uy",
+    "en": "Smart House",
+    "ru": "Умный Дом"
+  },
+  {
+    "uz": "Aqlli Suv",
+    "en": "Smart Water",
+    "ru": "Умный Вода"
+  },
+  {
+    "uz": "Aqlli Non",
+    "en": "Smart Bread",
+    "ru": "Умный Хлеб"
+  },
+  {
+    "uz": "Aqlli Sut",
+    "en": "Smart Milk",
+    "ru": "Умный Молоко"
+  },
+  {
+    "uz": "Aqlli Choy",
+    "en": "Smart Tea",
+    "ru": "Умный Чай"
+  },
+  {
+    "uz": "Aqlli Qahva",
+    "en": "Smart Coffee",
+    "ru": "Умный Кофе"
+  },
+  {
+    "uz": "Aqlli Shakar",
+    "en": "Smart Sugar",
+    "ru": "Умный Сахар"
+  },
+  {
+    "uz": "Aqlli Samolyot",
+    "en": "Smart Plane",
+    "ru": "Умный Самолет"
+  },
+  {
+    "uz": "Aqlli Poyezd",
+    "en": "Smart Train",
+    "ru": "Умный Поезд"
+  },
+  {
+    "uz": "Aqlli Mashina",
+    "en": "Smart Car",
+    "ru": "Умный Машина"
+  },
+  {
+    "uz": "Aqlli Kiyim",
+    "en": "Smart Clothes",
+    "ru": "Умный Одежда"
+  },
+  {
+    "uz": "Aqlli Poyafzal",
+    "en": "Smart Shoes",
+    "ru": "Умный Обувь"
+  },
+  {
+    "uz": "Aqlli Sumka",
+    "en": "Smart Bag",
+    "ru": "Умный Сумка"
+  },
+  {
+    "uz": "Kuchsiz Kitob",
+    "en": "Weak Book",
+    "ru": "Слабый Книга"
+  },
+  {
+    "uz": "Kuchsiz Qalam",
+    "en": "Weak Pencil",
+    "ru": "Слабый Карандаш"
+  },
+  {
+    "uz": "Kuchsiz Daftar",
+    "en": "Weak Notebook",
+    "ru": "Слабый Тетрадь"
+  },
+  {
+    "uz": "Kuchsiz Maktab",
+    "en": "Weak School",
+    "ru": "Слабый Школа"
+  },
+  {
+    "uz": "Kuchsiz Shahar",
+    "en": "Weak City",
+    "ru": "Слабый Город"
+  },
+  {
+    "uz": "Kuchsiz Uy",
+    "en": "Weak House",
+    "ru": "Слабый Дом"
+  },
+  {
+    "uz": "Kuchsiz Suv",
+    "en": "Weak Water",
+    "ru": "Слабый Вода"
+  },
+  {
+    "uz": "Kuchsiz Non",
+    "en": "Weak Bread",
+    "ru": "Слабый Хлеб"
+  },
+  {
+    "uz": "Kuchsiz Sut",
+    "en": "Weak Milk",
+    "ru": "Слабый Молоко"
+  },
+  {
+    "uz": "Kuchsiz Choy",
+    "en": "Weak Tea",
+    "ru": "Слабый Чай"
+  },
+  {
+    "uz": "Kuchsiz Qahva",
+    "en": "Weak Coffee",
+    "ru": "Слабый Кофе"
+  },
+  {
+    "uz": "Kuchsiz Shakar",
+    "en": "Weak Sugar",
+    "ru": "Слабый Сахар"
+  },
+  {
+    "uz": "Kuchsiz Samolyot",
+    "en": "Weak Plane",
+    "ru": "Слабый Самолет"
+  },
+  {
+    "uz": "Kuchsiz Poyezd",
+    "en": "Weak Train",
+    "ru": "Слабый Поезд"
+  },
+  {
+    "uz": "Kuchsiz Mashina",
+    "en": "Weak Car",
+    "ru": "Слабый Машина"
+  },
+  {
+    "uz": "Kuchsiz Kiyim",
+    "en": "Weak Clothes",
+    "ru": "Слабый Одежда"
+  },
+  {
+    "uz": "Kuchsiz Poyafzal",
+    "en": "Weak Shoes",
+    "ru": "Слабый Обувь"
+  },
+  {
+    "uz": "Kuchsiz Sumka",
+    "en": "Weak Bag",
+    "ru": "Слабый Сумка"
+  },
+  {
+    "uz": "Kuchli Kitob",
+    "en": "Strong Book",
+    "ru": "Сильный Книга"
+  },
+  {
+    "uz": "Kuchli Qalam",
+    "en": "Strong Pencil",
+    "ru": "Сильный Карандаш"
+  },
+  {
+    "uz": "Kuchli Daftar",
+    "en": "Strong Notebook",
+    "ru": "Сильный Тетрадь"
+  },
+  {
+    "uz": "Kuchli Maktab",
+    "en": "Strong School",
+    "ru": "Сильный Школа"
+  },
+  {
+    "uz": "Kuchli Shahar",
+    "en": "Strong City",
+    "ru": "Сильный Город"
+  },
+  {
+    "uz": "Kuchli Uy",
+    "en": "Strong House",
+    "ru": "Сильный Дом"
+  },
+  {
+    "uz": "Kuchli Suv",
+    "en": "Strong Water",
+    "ru": "Сильный Вода"
+  },
+  {
+    "uz": "Kuchli Non",
+    "en": "Strong Bread",
+    "ru": "Сильный Хлеб"
+  },
+  {
+    "uz": "Kuchli Sut",
+    "en": "Strong Milk",
+    "ru": "Сильный Молоко"
+  },
+  {
+    "uz": "Kuchli Choy",
+    "en": "Strong Tea",
+    "ru": "Сильный Чай"
+  },
+  {
+    "uz": "Kuchli Qahva",
+    "en": "Strong Coffee",
+    "ru": "Сильный Кофе"
+  },
+  {
+    "uz": "Kuchli Shakar",
+    "en": "Strong Sugar",
+    "ru": "Сильный Сахар"
+  },
+  {
+    "uz": "Kuchli Samolyot",
+    "en": "Strong Plane",
+    "ru": "Сильный Самолет"
+  },
+  {
+    "uz": "Kuchli Poyezd",
+    "en": "Strong Train",
+    "ru": "Сильный Поезд"
+  },
+  {
+    "uz": "Kuchli Mashina",
+    "en": "Strong Car",
+    "ru": "Сильный Машина"
+  },
+  {
+    "uz": "Kuchli Kiyim",
+    "en": "Strong Clothes",
+    "ru": "Сильный Одежда"
+  },
+  {
+    "uz": "Kuchli Poyafzal",
+    "en": "Strong Shoes",
+    "ru": "Сильный Обувь"
+  },
+  {
+    "uz": "Kuchli Sumka",
+    "en": "Strong Bag",
+    "ru": "Сильный Сумка"
+  },
+  {
+    "uz": "Uzoq Kitob",
+    "en": "Far Book",
+    "ru": "Далекий Книга"
+  },
+  {
+    "uz": "Uzoq Qalam",
+    "en": "Far Pencil",
+    "ru": "Далекий Карандаш"
+  },
+  {
+    "uz": "Uzoq Daftar",
+    "en": "Far Notebook",
+    "ru": "Далекий Тетрадь"
+  },
+  {
+    "uz": "Uzoq Maktab",
+    "en": "Far School",
+    "ru": "Далекий Школа"
+  },
+  {
+    "uz": "Uzoq Shahar",
+    "en": "Far City",
+    "ru": "Далекий Город"
+  },
+  {
+    "uz": "Uzoq Uy",
+    "en": "Far House",
+    "ru": "Далекий Дом"
+  },
+  {
+    "uz": "Uzoq Suv",
+    "en": "Far Water",
+    "ru": "Далекий Вода"
+  },
+  {
+    "uz": "Uzoq Non",
+    "en": "Far Bread",
+    "ru": "Далекий Хлеб"
+  },
+  {
+    "uz": "Uzoq Sut",
+    "en": "Far Milk",
+    "ru": "Далекий Молоко"
+  },
+  {
+    "uz": "Uzoq Choy",
+    "en": "Far Tea",
+    "ru": "Далекий Чай"
+  },
+  {
+    "uz": "Uzoq Qahva",
+    "en": "Far Coffee",
+    "ru": "Далекий Кофе"
+  },
+  {
+    "uz": "Uzoq Shakar",
+    "en": "Far Sugar",
+    "ru": "Далекий Сахар"
+  },
+  {
+    "uz": "Uzoq Samolyot",
+    "en": "Far Plane",
+    "ru": "Далекий Самолет"
+  },
+  {
+    "uz": "Uzoq Poyezd",
+    "en": "Far Train",
+    "ru": "Далекий Поезд"
+  },
+  {
+    "uz": "Uzoq Mashina",
+    "en": "Far Car",
+    "ru": "Далекий Машина"
+  },
+  {
+    "uz": "Uzoq Kiyim",
+    "en": "Far Clothes",
+    "ru": "Далекий Одежда"
+  },
+  {
+    "uz": "Uzoq Poyafzal",
+    "en": "Far Shoes",
+    "ru": "Далекий Обувь"
+  },
+  {
+    "uz": "Uzoq Sumka",
+    "en": "Far Bag",
+    "ru": "Далекий Сумка"
+  },
+  {
+    "uz": "Katta Kitob",
+    "en": "Big Book",
+    "ru": "Большой Книга"
+  },
+  {
+    "uz": "Katta Qalam",
+    "en": "Big Pencil",
+    "ru": "Большой Карандаш"
+  },
+  {
+    "uz": "Katta Daftar",
+    "en": "Big Notebook",
+    "ru": "Большой Тетрадь"
+  },
+  {
+    "uz": "Katta Maktab",
+    "en": "Big School",
+    "ru": "Большой Школа"
+  },
+  {
+    "uz": "Katta Shahar",
+    "en": "Big City",
+    "ru": "Большой Город"
+  },
+  {
+    "uz": "Katta Uy",
+    "en": "Big House",
+    "ru": "Большой Дом"
+  },
+  {
+    "uz": "Katta Suv",
+    "en": "Big Water",
+    "ru": "Большой Вода"
+  },
+  {
+    "uz": "Katta Non",
+    "en": "Big Bread",
+    "ru": "Большой Хлеб"
+  },
+  {
+    "uz": "Katta Sut",
+    "en": "Big Milk",
+    "ru": "Большой Молоко"
+  },
+  {
+    "uz": "Katta Choy",
+    "en": "Big Tea",
+    "ru": "Большой Чай"
+  },
+  {
+    "uz": "Katta Qahva",
+    "en": "Big Coffee",
+    "ru": "Большой Кофе"
+  },
+  {
+    "uz": "Katta Shakar",
+    "en": "Big Sugar",
+    "ru": "Большой Сахар"
+  },
+  {
+    "uz": "Katta Samolyot",
+    "en": "Big Plane",
+    "ru": "Большой Самолет"
+  },
+  {
+    "uz": "Katta Poyezd",
+    "en": "Big Train",
+    "ru": "Большой Поезд"
+  },
+  {
+    "uz": "Katta Mashina",
+    "en": "Big Car",
+    "ru": "Большой Машина"
+  },
+  {
+    "uz": "Katta Kiyim",
+    "en": "Big Clothes",
+    "ru": "Большой Одежда"
+  },
+  {
+    "uz": "Katta Poyafzal",
+    "en": "Big Shoes",
+    "ru": "Большой Обувь"
+  },
+  {
+    "uz": "Katta Sumka",
+    "en": "Big Bag",
+    "ru": "Большой Сумка"
+  },
+  {
+    "uz": "Kichik Kitob",
+    "en": "Small Book",
+    "ru": "Маленький Книга"
+  },
+  {
+    "uz": "Kichik Qalam",
+    "en": "Small Pencil",
+    "ru": "Маленький Карандаш"
+  },
+  {
+    "uz": "Kichik Daftar",
+    "en": "Small Notebook",
+    "ru": "Маленький Тетрадь"
+  },
+  {
+    "uz": "Kichik Maktab",
+    "en": "Small School",
+    "ru": "Маленький Школа"
+  },
+  {
+    "uz": "Kichik Shahar",
+    "en": "Small City",
+    "ru": "Маленький Город"
+  },
+  {
+    "uz": "Kichik Uy",
+    "en": "Small House",
+    "ru": "Маленький Дом"
+  },
+  {
+    "uz": "Kichik Suv",
+    "en": "Small Water",
+    "ru": "Маленький Вода"
+  },
+  {
+    "uz": "Kichik Non",
+    "en": "Small Bread",
+    "ru": "Маленький Хлеб"
+  },
+  {
+    "uz": "Kichik Sut",
+    "en": "Small Milk",
+    "ru": "Маленький Молоко"
+  },
+  {
+    "uz": "Kichik Choy",
+    "en": "Small Tea",
+    "ru": "Маленький Чай"
+  },
+  {
+    "uz": "Kichik Qahva",
+    "en": "Small Coffee",
+    "ru": "Маленький Кофе"
+  },
+  {
+    "uz": "Kichik Shakar",
+    "en": "Small Sugar",
+    "ru": "Маленький Сахар"
+  },
+  {
+    "uz": "Kichik Samolyot",
+    "en": "Small Plane",
+    "ru": "Маленький Самолет"
+  },
+  {
+    "uz": "Kichik Poyezd",
+    "en": "Small Train",
+    "ru": "Маленький Поезд"
+  },
+  {
+    "uz": "Kichik Mashina",
+    "en": "Small Car",
+    "ru": "Маленький Машина"
+  },
+  {
+    "uz": "Kichik Kiyim",
+    "en": "Small Clothes",
+    "ru": "Маленький Одежда"
+  },
+  {
+    "uz": "Kichik Poyafzal",
+    "en": "Small Shoes",
+    "ru": "Маленький Обувь"
+  },
+  {
+    "uz": "Kichik Sumka",
+    "en": "Small Bag",
+    "ru": "Маленький Сумка"
+  },
+  {
+    "uz": "Yaxshi Kitob",
+    "en": "Good Book",
+    "ru": "Хороший Книга"
+  },
+  {
+    "uz": "Yaxshi Qalam",
+    "en": "Good Pencil",
+    "ru": "Хороший Карандаш"
+  },
+  {
+    "uz": "Yaxshi Daftar",
+    "en": "Good Notebook",
+    "ru": "Хороший Тетрадь"
+  },
+  {
+    "uz": "Yaxshi Maktab",
+    "en": "Good School",
+    "ru": "Хороший Школа"
+  },
+  {
+    "uz": "Yaxshi Shahar",
+    "en": "Good City",
+    "ru": "Хороший Город"
+  },
+  {
+    "uz": "Yaxshi Uy",
+    "en": "Good House",
+    "ru": "Хороший Дом"
+  },
+  {
+    "uz": "Yaxshi Suv",
+    "en": "Good Water",
+    "ru": "Хороший Вода"
+  },
+  {
+    "uz": "Yaxshi Non",
+    "en": "Good Bread",
+    "ru": "Хороший Хлеб"
+  },
+  {
+    "uz": "Yaxshi Sut",
+    "en": "Good Milk",
+    "ru": "Хороший Молоко"
+  },
+  {
+    "uz": "Yaxshi Choy",
+    "en": "Good Tea",
+    "ru": "Хороший Чай"
+  },
+  {
+    "uz": "Yaxshi Qahva",
+    "en": "Good Coffee",
+    "ru": "Хороший Кофе"
+  },
+  {
+    "uz": "Yaxshi Shakar",
+    "en": "Good Sugar",
+    "ru": "Хороший Сахар"
+  },
+  {
+    "uz": "Yaxshi Samolyot",
+    "en": "Good Plane",
+    "ru": "Хороший Самолет"
+  },
+  {
+    "uz": "Yaxshi Poyezd",
+    "en": "Good Train",
+    "ru": "Хороший Поезд"
+  },
+  {
+    "uz": "Yaxshi Mashina",
+    "en": "Good Car",
+    "ru": "Хороший Машина"
+  },
+  {
+    "uz": "Yaxshi Kiyim",
+    "en": "Good Clothes",
+    "ru": "Хороший Одежда"
+  },
+  {
+    "uz": "Yaxshi Poyafzal",
+    "en": "Good Shoes",
+    "ru": "Хороший Обувь"
+  },
+  {
+    "uz": "Yaxshi Sumka",
+    "en": "Good Bag",
+    "ru": "Хороший Сумка"
+  },
+  {
+    "uz": "Yomon Kitob",
+    "en": "Bad Book",
+    "ru": "Плохой Книга"
+  },
+  {
+    "uz": "Yomon Qalam",
+    "en": "Bad Pencil",
+    "ru": "Плохой Карандаш"
+  },
+  {
+    "uz": "Yomon Daftar",
+    "en": "Bad Notebook",
+    "ru": "Плохой Тетрадь"
+  },
+  {
+    "uz": "Yomon Maktab",
+    "en": "Bad School",
+    "ru": "Плохой Школа"
+  },
+  {
+    "uz": "Yomon Shahar",
+    "en": "Bad City",
+    "ru": "Плохой Город"
+  },
+  {
+    "uz": "Yomon Uy",
+    "en": "Bad House",
+    "ru": "Плохой Дом"
+  },
+  {
+    "uz": "Yomon Suv",
+    "en": "Bad Water",
+    "ru": "Плохой Вода"
+  },
+  {
+    "uz": "Yomon Non",
+    "en": "Bad Bread",
+    "ru": "Плохой Хлеб"
+  },
+  {
+    "uz": "Yomon Sut",
+    "en": "Bad Milk",
+    "ru": "Плохой Молоко"
+  },
+  {
+    "uz": "Yomon Choy",
+    "en": "Bad Tea",
+    "ru": "Плохой Чай"
+  },
+  {
+    "uz": "Yomon Qahva",
+    "en": "Bad Coffee",
+    "ru": "Плохой Кофе"
+  },
+  {
+    "uz": "Yomon Shakar",
+    "en": "Bad Sugar",
+    "ru": "Плохой Сахар"
+  },
+  {
+    "uz": "Yomon Samolyot",
+    "en": "Bad Plane",
+    "ru": "Плохой Самолет"
+  },
+  {
+    "uz": "Yomon Poyezd",
+    "en": "Bad Train",
+    "ru": "Плохой Поезд"
+  },
+  {
+    "uz": "Yomon Mashina",
+    "en": "Bad Car",
+    "ru": "Плохой Машина"
+  },
+  {
+    "uz": "Yomon Kiyim",
+    "en": "Bad Clothes",
+    "ru": "Плохой Одежда"
+  },
+  {
+    "uz": "Yomon Poyafzal",
+    "en": "Bad Shoes",
+    "ru": "Плохой Обувь"
+  },
+  {
+    "uz": "Yomon Sumka",
+    "en": "Bad Bag",
+    "ru": "Плохой Сумка"
+  },
+  {
+    "uz": "Yangi Kitob",
+    "en": "New Book",
+    "ru": "Новый Книга"
+  },
+  {
+    "uz": "Yangi Qalam",
+    "en": "New Pencil",
+    "ru": "Новый Карандаш"
+  },
+  {
+    "uz": "Yangi Daftar",
+    "en": "New Notebook",
+    "ru": "Новый Тетрадь"
+  },
+  {
+    "uz": "Yangi Maktab",
+    "en": "New School",
+    "ru": "Новый Школа"
+  },
+  {
+    "uz": "Yangi Shahar",
+    "en": "New City",
+    "ru": "Новый Город"
+  },
+  {
+    "uz": "Yangi Uy",
+    "en": "New House",
+    "ru": "Новый Дом"
+  },
+  {
+    "uz": "Yangi Suv",
+    "en": "New Water",
+    "ru": "Новый Вода"
+  },
+  {
+    "uz": "Yangi Non",
+    "en": "New Bread",
+    "ru": "Новый Хлеб"
+  },
+  {
+    "uz": "Yangi Sut",
+    "en": "New Milk",
+    "ru": "Новый Молоко"
+  },
+  {
+    "uz": "Yangi Choy",
+    "en": "New Tea",
+    "ru": "Новый Чай"
+  },
+  {
+    "uz": "Yangi Qahva",
+    "en": "New Coffee",
+    "ru": "Новый Кофе"
+  },
+  {
+    "uz": "Yangi Shakar",
+    "en": "New Sugar",
+    "ru": "Новый Сахар"
+  },
+  {
+    "uz": "Yangi Samolyot",
+    "en": "New Plane",
+    "ru": "Новый Самолет"
+  },
+  {
+    "uz": "Yangi Poyezd",
+    "en": "New Train",
+    "ru": "Новый Поезд"
+  },
+  {
+    "uz": "Yangi Mashina",
+    "en": "New Car",
+    "ru": "Новый Машина"
+  },
+  {
+    "uz": "Yangi Kiyim",
+    "en": "New Clothes",
+    "ru": "Новый Одежда"
+  },
+  {
+    "uz": "Yangi Poyafzal",
+    "en": "New Shoes",
+    "ru": "Новый Обувь"
+  },
+  {
+    "uz": "Yangi Sumka",
+    "en": "New Bag",
+    "ru": "Новый Сумка"
+  },
+  {
+    "uz": "Eski Kitob",
+    "en": "Old Book",
+    "ru": "Старый Книга"
+  },
+  {
+    "uz": "Eski Qalam",
+    "en": "Old Pencil",
+    "ru": "Старый Карандаш"
+  },
+  {
+    "uz": "Eski Daftar",
+    "en": "Old Notebook",
+    "ru": "Старый Тетрадь"
+  },
+  {
+    "uz": "Eski Maktab",
+    "en": "Old School",
+    "ru": "Старый Школа"
+  },
+  {
+    "uz": "Eski Shahar",
+    "en": "Old City",
+    "ru": "Старый Город"
+  },
+  {
+    "uz": "Eski Uy",
+    "en": "Old House",
+    "ru": "Старый Дом"
+  },
+  {
+    "uz": "Eski Suv",
+    "en": "Old Water",
+    "ru": "Старый Вода"
+  },
+  {
+    "uz": "Eski Non",
+    "en": "Old Bread",
+    "ru": "Старый Хлеб"
+  },
+  {
+    "uz": "Eski Sut",
+    "en": "Old Milk",
+    "ru": "Старый Молоко"
+  },
+  {
+    "uz": "Eski Choy",
+    "en": "Old Tea",
+    "ru": "Старый Чай"
+  },
+  {
+    "uz": "Eski Qahva",
+    "en": "Old Coffee",
+    "ru": "Старый Кофе"
+  },
+  {
+    "uz": "Eski Shakar",
+    "en": "Old Sugar",
+    "ru": "Старый Сахар"
+  },
+  {
+    "uz": "Eski Samolyot",
+    "en": "Old Plane",
+    "ru": "Старый Самолет"
+  },
+  {
+    "uz": "Eski Poyezd",
+    "en": "Old Train",
+    "ru": "Старый Поезд"
+  },
+  {
+    "uz": "Eski Mashina",
+    "en": "Old Car",
+    "ru": "Старый Машина"
+  },
+  {
+    "uz": "Eski Kiyim",
+    "en": "Old Clothes",
+    "ru": "Старый Одежда"
+  },
+  {
+    "uz": "Eski Poyafzal",
+    "en": "Old Shoes",
+    "ru": "Старый Обувь"
+  },
+  {
+    "uz": "Eski Sumka",
+    "en": "Old Bag",
+    "ru": "Старый Сумка"
+  },
+  {
+    "uz": "Chiroyli Kitob",
+    "en": "Beautiful Book",
+    "ru": "Красивый Книга"
+  },
+  {
+    "uz": "Chiroyli Qalam",
+    "en": "Beautiful Pencil",
+    "ru": "Красивый Карандаш"
+  },
+  {
+    "uz": "Chiroyli Daftar",
+    "en": "Beautiful Notebook",
+    "ru": "Красивый Тетрадь"
+  },
+  {
+    "uz": "Chiroyli Maktab",
+    "en": "Beautiful School",
+    "ru": "Красивый Школа"
+  },
+  {
+    "uz": "Chiroyli Shahar",
+    "en": "Beautiful City",
+    "ru": "Красивый Город"
+  },
+  {
+    "uz": "Chiroyli Uy",
+    "en": "Beautiful House",
+    "ru": "Красивый Дом"
+  },
+  {
+    "uz": "Chiroyli Suv",
+    "en": "Beautiful Water",
+    "ru": "Красивый Вода"
+  },
+  {
+    "uz": "Chiroyli Non",
+    "en": "Beautiful Bread",
+    "ru": "Красивый Хлеб"
+  },
+  {
+    "uz": "Chiroyli Sut",
+    "en": "Beautiful Milk",
+    "ru": "Красивый Молоко"
+  },
+  {
+    "uz": "Chiroyli Choy",
+    "en": "Beautiful Tea",
+    "ru": "Красивый Чай"
+  },
+  {
+    "uz": "Chiroyli Qahva",
+    "en": "Beautiful Coffee",
+    "ru": "Красивый Кофе"
+  },
+  {
+    "uz": "Chiroyli Shakar",
+    "en": "Beautiful Sugar",
+    "ru": "Красивый Сахар"
+  },
+  {
+    "uz": "Chiroyli Samolyot",
+    "en": "Beautiful Plane",
+    "ru": "Красивый Самолет"
+  },
+  {
+    "uz": "Chiroyli Poyezd",
+    "en": "Beautiful Train",
+    "ru": "Красивый Поезд"
+  },
+  {
+    "uz": "Chiroyli Mashina",
+    "en": "Beautiful Car",
+    "ru": "Красивый Машина"
+  },
+  {
+    "uz": "Chiroyli Kiyim",
+    "en": "Beautiful Clothes",
+    "ru": "Красивый Одежда"
+  },
+  {
+    "uz": "Chiroyli Poyafzal",
+    "en": "Beautiful Shoes",
+    "ru": "Красивый Обувь"
+  },
+  {
+    "uz": "Chiroyli Sumka",
+    "en": "Beautiful Bag",
+    "ru": "Красивый Сумка"
+  },
+  {
+    "uz": "Xunuk Kitob",
+    "en": "Ugly Book",
+    "ru": "Уродливый Книга"
+  },
+  {
+    "uz": "Xunuk Qalam",
+    "en": "Ugly Pencil",
+    "ru": "Уродливый Карандаш"
+  },
+  {
+    "uz": "Xunuk Daftar",
+    "en": "Ugly Notebook",
+    "ru": "Уродливый Тетрадь"
+  },
+  {
+    "uz": "Xunuk Maktab",
+    "en": "Ugly School",
+    "ru": "Уродливый Школа"
+  },
+  {
+    "uz": "Xunuk Shahar",
+    "en": "Ugly City",
+    "ru": "Уродливый Город"
+  },
+  {
+    "uz": "Xunuk Uy",
+    "en": "Ugly House",
+    "ru": "Уродливый Дом"
+  },
+  {
+    "uz": "Xunuk Suv",
+    "en": "Ugly Water",
+    "ru": "Уродливый Вода"
+  },
+  {
+    "uz": "Xunuk Non",
+    "en": "Ugly Bread",
+    "ru": "Уродливый Хлеб"
+  },
+  {
+    "uz": "Xunuk Sut",
+    "en": "Ugly Milk",
+    "ru": "Уродливый Молоко"
+  },
+  {
+    "uz": "Xunuk Choy",
+    "en": "Ugly Tea",
+    "ru": "Уродливый Чай"
+  },
+  {
+    "uz": "Xunuk Qahva",
+    "en": "Ugly Coffee",
+    "ru": "Уродливый Кофе"
+  },
+  {
+    "uz": "Xunuk Shakar",
+    "en": "Ugly Sugar",
+    "ru": "Уродливый Сахар"
+  },
+  {
+    "uz": "Xunuk Samolyot",
+    "en": "Ugly Plane",
+    "ru": "Уродливый Самолет"
+  },
+  {
+    "uz": "Xunuk Poyezd",
+    "en": "Ugly Train",
+    "ru": "Уродливый Поезд"
+  },
+  {
+    "uz": "Xunuk Mashina",
+    "en": "Ugly Car",
+    "ru": "Уродливый Машина"
+  },
+  {
+    "uz": "Xunuk Kiyim",
+    "en": "Ugly Clothes",
+    "ru": "Уродливый Одежда"
+  },
+  {
+    "uz": "Xunuk Poyafzal",
+    "en": "Ugly Shoes",
+    "ru": "Уродливый Обувь"
+  },
+  {
+    "uz": "Xunuk Sumka",
+    "en": "Ugly Bag",
+    "ru": "Уродливый Сумка"
+  },
+  {
+    "uz": "Issiq Kitob",
+    "en": "Hot Book",
+    "ru": "Горячий Книга"
+  },
+  {
+    "uz": "Issiq Qalam",
+    "en": "Hot Pencil",
+    "ru": "Горячий Карандаш"
+  },
+  {
+    "uz": "Issiq Daftar",
+    "en": "Hot Notebook",
+    "ru": "Горячий Тетрадь"
+  },
+  {
+    "uz": "Issiq Maktab",
+    "en": "Hot School",
+    "ru": "Горячий Школа"
+  },
+  {
+    "uz": "Issiq Shahar",
+    "en": "Hot City",
+    "ru": "Горячий Город"
+  },
+  {
+    "uz": "Issiq Uy",
+    "en": "Hot House",
+    "ru": "Горячий Дом"
+  },
+  {
+    "uz": "Issiq Suv",
+    "en": "Hot Water",
+    "ru": "Горячий Вода"
+  },
+  {
+    "uz": "Issiq Non",
+    "en": "Hot Bread",
+    "ru": "Горячий Хлеб"
+  },
+  {
+    "uz": "Issiq Sut",
+    "en": "Hot Milk",
+    "ru": "Горячий Молоко"
+  },
+  {
+    "uz": "Issiq Choy",
+    "en": "Hot Tea",
+    "ru": "Горячий Чай"
+  },
+  {
+    "uz": "Issiq Qahva",
+    "en": "Hot Coffee",
+    "ru": "Горячий Кофе"
+  },
+  {
+    "uz": "Issiq Shakar",
+    "en": "Hot Sugar",
+    "ru": "Горячий Сахар"
+  },
+  {
+    "uz": "Issiq Samolyot",
+    "en": "Hot Plane",
+    "ru": "Горячий Самолет"
+  },
+  {
+    "uz": "Issiq Poyezd",
+    "en": "Hot Train",
+    "ru": "Горячий Поезд"
+  },
+  {
+    "uz": "Issiq Mashina",
+    "en": "Hot Car",
+    "ru": "Горячий Машина"
+  },
+  {
+    "uz": "Issiq Kiyim",
+    "en": "Hot Clothes",
+    "ru": "Горячий Одежда"
+  },
+  {
+    "uz": "Issiq Poyafzal",
+    "en": "Hot Shoes",
+    "ru": "Горячий Обувь"
+  },
+  {
+    "uz": "Issiq Sumka",
+    "en": "Hot Bag",
+    "ru": "Горячий Сумка"
+  },
+  {
+    "uz": "Sovuq Kitob",
+    "en": "Cold Book",
+    "ru": "Холодный Книга"
+  },
+  {
+    "uz": "Sovuq Qalam",
+    "en": "Cold Pencil",
+    "ru": "Холодный Карандаш"
+  },
+  {
+    "uz": "Sovuq Daftar",
+    "en": "Cold Notebook",
+    "ru": "Холодный Тетрадь"
+  },
+  {
+    "uz": "Sovuq Maktab",
+    "en": "Cold School",
+    "ru": "Холодный Школа"
+  },
+  {
+    "uz": "Sovuq Shahar",
+    "en": "Cold City",
+    "ru": "Холодный Город"
+  },
+  {
+    "uz": "Sovuq Uy",
+    "en": "Cold House",
+    "ru": "Холодный Дом"
+  },
+  {
+    "uz": "Sovuq Suv",
+    "en": "Cold Water",
+    "ru": "Холодный Вода"
+  },
+  {
+    "uz": "Sovuq Non",
+    "en": "Cold Bread",
+    "ru": "Холодный Хлеб"
+  },
+  {
+    "uz": "Sovuq Sut",
+    "en": "Cold Milk",
+    "ru": "Холодный Молоко"
+  },
+  {
+    "uz": "Sovuq Choy",
+    "en": "Cold Tea",
+    "ru": "Холодный Чай"
+  },
+  {
+    "uz": "Sovuq Qahva",
+    "en": "Cold Coffee",
+    "ru": "Холодный Кофе"
+  },
+  {
+    "uz": "Sovuq Shakar",
+    "en": "Cold Sugar",
+    "ru": "Холодный Сахар"
+  },
+  {
+    "uz": "Sovuq Samolyot",
+    "en": "Cold Plane",
+    "ru": "Холодный Самолет"
+  },
+  {
+    "uz": "Sovuq Poyezd",
+    "en": "Cold Train",
+    "ru": "Холодный Поезд"
+  },
+  {
+    "uz": "Sovuq Mashina",
+    "en": "Cold Car",
+    "ru": "Холодный Машина"
+  },
+  {
+    "uz": "Sovuq Kiyim",
+    "en": "Cold Clothes",
+    "ru": "Холодный Одежда"
+  },
+  {
+    "uz": "Sovuq Poyafzal",
+    "en": "Cold Shoes",
+    "ru": "Холодный Обувь"
+  },
+  {
+    "uz": "Sovuq Sumka",
+    "en": "Cold Bag",
+    "ru": "Холодный Сумка"
+  },
+  {
+    "uz": "Oson Kitob",
+    "en": "Easy Book",
+    "ru": "Легкий Книга"
+  },
+  {
+    "uz": "Oson Qalam",
+    "en": "Easy Pencil",
+    "ru": "Легкий Карандаш"
+  },
+  {
+    "uz": "Oson Daftar",
+    "en": "Easy Notebook",
+    "ru": "Легкий Тетрадь"
+  },
+  {
+    "uz": "Oson Maktab",
+    "en": "Easy School",
+    "ru": "Легкий Школа"
+  },
+  {
+    "uz": "Oson Shahar",
+    "en": "Easy City",
+    "ru": "Легкий Город"
+  },
+  {
+    "uz": "Oson Uy",
+    "en": "Easy House",
+    "ru": "Легкий Дом"
+  },
+  {
+    "uz": "Oson Suv",
+    "en": "Easy Water",
+    "ru": "Легкий Вода"
+  },
+  {
+    "uz": "Oson Non",
+    "en": "Easy Bread",
+    "ru": "Легкий Хлеб"
+  },
+  {
+    "uz": "Oson Sut",
+    "en": "Easy Milk",
+    "ru": "Легкий Молоко"
+  },
+  {
+    "uz": "Oson Choy",
+    "en": "Easy Tea",
+    "ru": "Легкий Чай"
+  },
+  {
+    "uz": "Oson Qahva",
+    "en": "Easy Coffee",
+    "ru": "Легкий Кофе"
+  },
+  {
+    "uz": "Oson Shakar",
+    "en": "Easy Sugar",
+    "ru": "Легкий Сахар"
+  }
+]
