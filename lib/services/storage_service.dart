@@ -81,4 +81,72 @@ class StorageService {
       await file.delete();
     }
   }
+
+  Future<void> initializeDefaults() async {
+    final categories = await getCategories();
+    if (categories.isNotEmpty) return;
+
+    // Create default categories
+    final defaultCategories = ['Matematika', 'Tarix', 'Ona tili'];
+    for (var cat in defaultCategories) {
+      await createCategory(cat);
+    }
+
+    // Add sample test to Matematika
+    await saveTest(
+      'Matematika',
+      QuizSet(
+        id: 'sample_math_1',
+        title: 'Oddiy arifmetika',
+        questions: [
+          QuizQuestion(
+            id: 'q1',
+            question: '2 + 2 nechaga teng?',
+            options: ['3', '4', '5', '6'],
+            correctAnswerIndex: 1,
+          ),
+          QuizQuestion(
+            id: 'q2',
+            question: '10 * 10 nechaga teng?',
+            options: ['10', '100', '1000', '20'],
+            correctAnswerIndex: 1,
+          ),
+        ],
+      ),
+    );
+
+    // Add sample test to Tarix
+    await saveTest(
+      'Tarix',
+      QuizSet(
+        id: 'sample_history_1',
+        title: 'O\'zbekiston tarixi (Qisqa)',
+        questions: [
+          QuizQuestion(
+            id: 'h1',
+            question: 'Amir Temur qachon tavallud topgan?',
+            options: ['1336-yil', '1340-yil', '1405-yil', '1299-yil'],
+            correctAnswerIndex: 0,
+          ),
+        ],
+      ),
+    );
+
+    // Add sample test to Ona tili
+    await saveTest(
+      'Ona tili',
+      QuizSet(
+        id: 'sample_lang_1',
+        title: 'Imlo qoidalari',
+        questions: [
+          QuizQuestion(
+            id: 'l1',
+            question: 'Qaysi so\'z to\'g\'ri yozilgan?',
+            options: ['Mashina', 'Moshina', 'Mashyna', 'Moshyna'],
+            correctAnswerIndex: 0,
+          ),
+        ],
+      ),
+    );
+  }
 }

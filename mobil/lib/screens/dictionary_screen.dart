@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/dictionary_provider.dart';
@@ -17,7 +16,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
   @override
   Widget build(BuildContext context) {
     final localeProvider = context.watch<LocaleProvider>();
-    
+
     return Scaffold(
       backgroundColor: Colors.grey[50],
       body: CustomScrollView(
@@ -52,7 +51,12 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
             bottom: PreferredSize(
               preferredSize: const Size.fromHeight(60),
               child: Padding(
-                padding: const EdgeInsets.only(left: 16.0, right: 16.0, bottom: 8.0, top: 4.0),
+                padding: const EdgeInsets.only(
+                  left: 16.0,
+                  right: 16.0,
+                  bottom: 8.0,
+                  top: 4.0,
+                ),
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: localeProvider.getText('search_hint'),
@@ -75,67 +79,97 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
           Consumer<DictionaryProvider>(
             builder: (context, provider, child) {
               if (provider.isLoading) {
-                return const SliverToBoxAdapter(child: Center(child: CircularProgressIndicator()));
+                return const SliverToBoxAdapter(
+                  child: Center(child: CircularProgressIndicator()),
+                );
               }
               final wordsList = provider.words;
 
               return SliverList(
-                delegate: SliverChildBuilderDelegate(
-                  (context, index) {
-                    final word = wordsList[index];
-                    
-                    String mainWord;
-                    List<Map<String, String>> subs = [];
+                delegate: SliverChildBuilderDelegate((context, index) {
+                  final word = wordsList[index];
 
-                    if (_selectedPrimaryLang == 'uz') {
-                      mainWord = word.uz;
-                      subs = [{'l': 'EN', 't': word.en, 'c': '0xFF1B5E20'}, {'l': 'RU', 't': word.ru, 'c': '0xFFB71C1C'}];
-                    } else if (_selectedPrimaryLang == 'en') {
-                      mainWord = word.en;
-                      subs = [{'l': 'UZ', 't': word.uz, 'c': '0xFF1A237E'}, {'l': 'RU', 't': word.ru, 'c': '0xFFB71C1C'}];
-                    } else { // ru
-                      mainWord = word.ru;
-                      subs = [{'l': 'UZ', 't': word.uz, 'c': '0xFF1A237E'}, {'l': 'EN', 't': word.en, 'c': '0xFF1B5E20'}];
-                    }
+                  String mainWord;
+                  List<Map<String, String>> subs = [];
 
-                    return Container(
-                      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(15),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.05),
-                            blurRadius: 10,
-                            offset: const Offset(0, 4),
-                          ),
-                        ],
-                      ),
-                      child: ListTile(
-                        contentPadding: const EdgeInsets.all(12),
-                        leading: CircleAvatar(
-                          backgroundColor: Colors.indigo.withOpacity(0.1),
-                          child: Text(
-                            mainWord.isNotEmpty ? mainWord[0].toUpperCase() : '?', 
-                            style: const TextStyle(color: Colors.indigo, fontWeight: FontWeight.bold)
+                  if (_selectedPrimaryLang == 'uz') {
+                    mainWord = word.uz;
+                    subs = [
+                      {'l': 'EN', 't': word.en, 'c': '0xFF1B5E20'},
+                      {'l': 'RU', 't': word.ru, 'c': '0xFFB71C1C'},
+                    ];
+                  } else if (_selectedPrimaryLang == 'en') {
+                    mainWord = word.en;
+                    subs = [
+                      {'l': 'UZ', 't': word.uz, 'c': '0xFF1A237E'},
+                      {'l': 'RU', 't': word.ru, 'c': '0xFFB71C1C'},
+                    ];
+                  } else {
+                    // ru
+                    mainWord = word.ru;
+                    subs = [
+                      {'l': 'UZ', 't': word.uz, 'c': '0xFF1A237E'},
+                      {'l': 'EN', 't': word.en, 'c': '0xFF1B5E20'},
+                    ];
+                  }
+
+                  return Container(
+                    margin: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 6,
+                    ),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(15),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withValues(alpha: 0.05),
+                          blurRadius: 10,
+                          offset: const Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                    child: ListTile(
+                      contentPadding: const EdgeInsets.all(12),
+                      leading: CircleAvatar(
+                        backgroundColor: Colors.indigo.withValues(alpha: 0.1),
+                        child: Text(
+                          mainWord.isNotEmpty ? mainWord[0].toUpperCase() : '?',
+                          style: const TextStyle(
+                            color: Colors.indigo,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                        title: Text(mainWord, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18, color: Color(0xFF212121))),
-                        subtitle: Padding(
-                          padding: const EdgeInsets.only(top: 8.0),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: subs.map((s) => Padding(
-                              padding: const EdgeInsets.only(bottom: 4.0),
-                              child: _buildLangRow(s['l']!, s['t']!, Color(int.parse(s['c']!))),
-                            )).toList(),
-                          ),
+                      ),
+                      title: Text(
+                        mainWord,
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                          color: Color(0xFF212121),
                         ),
                       ),
-                    );
-                  },
-                  childCount: wordsList.length,
-                ),
+                      subtitle: Padding(
+                        padding: const EdgeInsets.only(top: 8.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: subs
+                              .map(
+                                (s) => Padding(
+                                  padding: const EdgeInsets.only(bottom: 4.0),
+                                  child: _buildLangRow(
+                                    s['l']!,
+                                    s['t']!,
+                                    Color(int.parse(s['c']!)),
+                                  ),
+                                ),
+                              )
+                              .toList(),
+                        ),
+                      ),
+                    ),
+                  );
+                }, childCount: wordsList.length),
               );
             },
           ),
@@ -154,7 +188,7 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
       },
       selectedColor: Colors.indigo,
       labelStyle: TextStyle(color: isSelected ? Colors.white : Colors.black87),
-      backgroundColor: Colors.indigo.withOpacity(0.05),
+      backgroundColor: Colors.indigo.withValues(alpha: 0.05),
     );
   }
 
@@ -164,13 +198,25 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
           decoration: BoxDecoration(
-            color: color.withOpacity(0.1),
+            color: color.withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(4),
           ),
-          child: Text(label, style: TextStyle(color: color, fontWeight: FontWeight.bold, fontSize: 12)),
+          child: Text(
+            label,
+            style: TextStyle(
+              color: color,
+              fontWeight: FontWeight.bold,
+              fontSize: 12,
+            ),
+          ),
         ),
         const SizedBox(width: 8),
-        Expanded(child: Text(text, style: const TextStyle(fontSize: 16, color: Color(0xFF424242)))),
+        Expanded(
+          child: Text(
+            text,
+            style: const TextStyle(fontSize: 16, color: Color(0xFF424242)),
+          ),
+        ),
       ],
     );
   }

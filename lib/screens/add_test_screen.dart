@@ -120,6 +120,56 @@ class _AddTestScreenState extends State<AddTestScreen> {
     }
   }
 
+  void _showGuide() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Test qo\'shish bo\'yicha yo\'riqnoma'),
+        content: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                '1. Qo\'lda kiritish:',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              const Text(
+                'Pastdagi "Savol qo\'shish" tugmasini bosing, savol matni va '
+                'variantlarni kiriting. To\'g\'ri javobni radio-tugma orqali tanlang.',
+              ),
+              const SizedBox(height: 12),
+              const Text(
+                '2. TXT fayldan import qilish:',
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              const Text('Fayl quyidagi formatda bo\'lishi kerak:'),
+              Container(
+                padding: const EdgeInsets.all(8),
+                color: Colors.grey[200],
+                child: const Text(
+                  'Savol matni?\n#To\'g\'ri javob\nNoto\'g\'ri javob 1\nNoto\'g\'ri javob 2',
+                  style: TextStyle(fontFamily: 'monospace', fontSize: 12),
+                ),
+              ),
+              const SizedBox(height: 8),
+              const Text(
+                'Har bir savol "?" bilan tugashi kerak. To\'g\'ri javob '
+                'oldidan "#" belgisini qo\'ying.',
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Tushunarli'),
+          ),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -130,6 +180,11 @@ class _AddTestScreenState extends State<AddTestScreen> {
               : 'Yangi Test Yaratish',
         ),
         actions: [
+          IconButton(
+            onPressed: _showGuide,
+            icon: const Icon(Icons.help_outline),
+            tooltip: 'Yo\'riqnoma',
+          ),
           IconButton(
             onPressed: _importFromTxt,
             icon: const Icon(Icons.file_upload),

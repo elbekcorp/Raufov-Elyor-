@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../models/quiz_models.dart';
 import '../services/storage_service.dart';
-import '../providers/theme_provider.dart';
 import '../providers/locale_provider.dart';
 import 'test_list_screen.dart';
+import 'settings_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -26,56 +26,27 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> _loadCategories() async {
     setState(() => _isLoading = true);
-    final cats = await _storage.getCategories();
-    setState(() {
-      _categories = cats;
-      _isLoading = false;
-    });
+    try {
+      await _storage.initializeDefaults();
+      final cats = await _storage.getCategories();
+      setState(() {
+        _categories = cats;
+        _isLoading = false;
+      });
+    } catch (e) {
+      debugPrint('Error loading categories: $e');
+      setState(() {
+        _isLoading = false;
+        // Optionally show error to user or empty list
+        _categories = [];
+      });
+    }
   }
 
   void _showSettings() {
-    final themeProvider = context.read<ThemeProvider>();
-    final localeProvider = context.read<LocaleProvider>();
-
-    showModalBottomSheet(
-      context: context,
-      builder: (context) => Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          ListTile(
-            title: Text(localeProvider.getText('language')),
-            trailing: DropdownButton<String>(
-              value: localeProvider.locale.languageCode,
-              items: const [
-                DropdownMenuItem(value: 'uz', child: Text('O\'zbek')),
-                DropdownMenuItem(value: 'ru', child: Text('Русский')),
-                DropdownMenuItem(value: 'en', child: Text('English')),
-              ],
-              onChanged: (val) {
-                if (val != null) localeProvider.setLocale(Locale(val));
-                Navigator.pop(context);
-              },
-            ),
-          ),
-          ListTile(
-            title: Text(localeProvider.getText('theme')),
-            trailing: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                  icon: const Icon(Icons.wb_sunny),
-                  onPressed: () => themeProvider.setThemeMode(ThemeMode.light),
-                ),
-                IconButton(
-                  icon: const Icon(Icons.nightlight_round),
-                  onPressed: () => themeProvider.setThemeMode(ThemeMode.dark),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 20),
-        ],
-      ),
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const SettingsScreen()),
     );
   }
 

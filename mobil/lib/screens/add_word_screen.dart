@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/dictionary_provider.dart';
@@ -17,20 +16,50 @@ class _AddWordScreenState extends State<AddWordScreen> {
   final _ruController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
 
+  String _cleanText(String text) {
+    if (text.isEmpty) return text;
+    // Split by lines, clean each line, then join
+    return text
+        .split('\n')
+        .map((line) {
+          String trimmed = line.trim();
+          if (trimmed == '+' || trimmed == '=') return "";
+
+          String res = line;
+          // Remove leading + or = (bullets)
+          if (res.trimLeft().startsWith('+') ||
+              res.trimLeft().startsWith('=')) {
+            res = res.trimLeft().substring(1);
+          }
+          // Remove trailing + or = (connectors)
+          if (res.trimRight().endsWith('+') || res.trimRight().endsWith('=')) {
+            res = res.trimRight().substring(0, res.trimRight().length - 1);
+          }
+          return res.trim();
+        })
+        .where((l) => l.isNotEmpty)
+        .join(' ')
+        .trim();
+  }
+
   void _save(LocaleProvider lp) async {
     if (_formKey.currentState!.validate()) {
       await context.read<DictionaryProvider>().addWord(
-        _uzController.text,
-        _enController.text,
-        _ruController.text,
+        _cleanText(_uzController.text),
+        _cleanText(_enController.text),
+        _cleanText(_ruController.text),
       );
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text(lp.locale.languageCode == 'uz' 
-                ? "So'z muvaffaqiyatli qo'shildi!" 
-                : (lp.locale.languageCode == 'ru' ? "Слово успешно добавлено!" : "Word added successfully!")), 
-            backgroundColor: Colors.green
+            content: Text(
+              lp.locale.languageCode == 'uz'
+                  ? "So'z muvaffaqiyatli qo'shildi!"
+                  : (lp.locale.languageCode == 'ru'
+                        ? "Слово успешно добавлено!"
+                        : "Word added successfully!"),
+            ),
+            backgroundColor: Colors.green,
           ),
         );
         _uzController.clear();
@@ -52,11 +81,34 @@ class _AddWordScreenState extends State<AddWordScreen> {
           key: _formKey,
           child: Column(
             children: [
-              _buildTextField(_uzController, localeProvider.getText('uzbek'), Icons.language),
+              /*
+              Align(
+                alignment: Alignment.centerRight,
+                child: IconButton(
+                  icon: const Icon(Icons.help_outline, color: Colors.indigo),
+                  onPressed: () => _showInfo(localeProvider),
+                  tooltip: localeProvider.getText('info_title'),
+                ),
+              ),
+              */
+              const SizedBox(height: 20),
+              _buildTextField(
+                _uzController,
+                localeProvider.getText('uzbek'),
+                Icons.language,
+              ),
               const SizedBox(height: 15),
-              _buildTextField(_enController, localeProvider.getText('english'), Icons.translate),
+              _buildTextField(
+                _enController,
+                localeProvider.getText('english'),
+                Icons.translate,
+              ),
               const SizedBox(height: 15),
-              _buildTextField(_ruController, localeProvider.getText('russian'), Icons.translate),
+              _buildTextField(
+                _ruController,
+                localeProvider.getText('russian'),
+                Icons.translate,
+              ),
               const SizedBox(height: 30),
               ElevatedButton(
                 onPressed: () => _save(localeProvider),
@@ -64,10 +116,18 @@ class _AddWordScreenState extends State<AddWordScreen> {
                   backgroundColor: Colors.indigo,
                   foregroundColor: Colors.white,
                   minimumSize: const Size.fromHeight(60),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(15),
+                  ),
                   elevation: 4,
                 ),
-                child: Text(localeProvider.getText('save'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                child: Text(
+                  localeProvider.getText('save'),
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ),
             ],
           ),
@@ -76,7 +136,11 @@ class _AddWordScreenState extends State<AddWordScreen> {
     );
   }
 
-  Widget _buildTextField(TextEditingController controller, String label, IconData icon) {
+  Widget _buildTextField(
+    TextEditingController controller,
+    String label,
+    IconData icon,
+  ) {
     return TextFormField(
       controller: controller,
       decoration: InputDecoration(

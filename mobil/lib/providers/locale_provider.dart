@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -52,6 +51,22 @@ class LocaleProvider with ChangeNotifier {
       'speech_hint': 'Gapirish uchun bosing',
       'from': 'Qaysi tildan',
       'to': 'Qaysi tilga',
+      'next': 'Keyingisi',
+      'finish': 'Tugalash',
+      'quiz_summary':
+          'Savollar: {total}, To\'g\'ri: {score}, Xatolar: {mistakes}.',
+      'practice_mistakes': 'Faqat xatolar ustida ishlashni xohlaysizmi?',
+      'yes': 'Ha',
+      'no': 'Yo\'q',
+      'info_title': 'Ma\'lumot',
+      'add_info':
+          'So\'zlarni qo\'shishda har bir til uchun tegishli maydonni to\'ldiring. Agar matn bir necha qatordan iborat bo\'lib, qatorlar boshida yoki oxirida + yoki = belgilari ajratuvchi sifatida ishlatilgan bo\'lsa, ular avtomatik tozalanadi. Formulalar ichidagi (+, =) belgilar esa saqlab qolinadi.',
+      'quiz_guide_title': 'Test qo\'shish',
+      'quiz_guide_content':
+          'Testlar avtomatik ravishda "So\'z qo\'shish" bo\'limida qo\'shilgan so\'zlardan tuziladi. Yangi so\'z qo\'shing va u ushbu testda paydo bo\'ladi.',
+      'practice_mistakes_title': 'Xatolar ustida ishlash',
+      'practice_mistakes_desc':
+          'Sizda {count} ta xato mavjud. Ular asosida yangi test boshlashni xohlaysizmi?',
     },
     'en': {
       'app_title': 'Dictionary & Translator',
@@ -73,6 +88,22 @@ class LocaleProvider with ChangeNotifier {
       'speech_hint': 'Click to speak',
       'from': 'From',
       'to': 'To',
+      'next': 'Next',
+      'finish': 'Finish',
+      'quiz_summary':
+          'Questions: {total}, Correct: {score}, Mistakes: {mistakes}.',
+      'practice_mistakes': 'Do you want to practice only the mistakes?',
+      'yes': 'Yes',
+      'no': 'No',
+      'info_title': 'Information',
+      'add_info':
+          'When adding words, fill in the respective fields for each language. If the text consists of multiple lines and + or = symbols are used as separators at the beginning or end of lines, they will be automatically cleaned. Symbols within formulas (+, =) will be preserved.',
+      'quiz_guide_title': 'Adding Tests',
+      'quiz_guide_content':
+          'Tests are automatically generated from words added in the "Add Word" section. Add a new word and it will appear in this quiz.',
+      'practice_mistakes_title': 'Practice Mistakes',
+      'practice_mistakes_desc':
+          'You have {count} mistakes. Would you like to start a new quiz based on them?',
     },
     'ru': {
       'app_title': 'Словарь и Переводчик',
@@ -94,6 +125,22 @@ class LocaleProvider with ChangeNotifier {
       'speech_hint': 'Нажмите, чтобы говорить',
       'from': 'С какого языка',
       'to': 'На какой язык',
+      'next': 'Следующий',
+      'finish': 'Завершить',
+      'quiz_summary':
+          'Вопросов: {total}, Правильно: {score}, Ошибок: {mistakes}.',
+      'practice_mistakes': 'Хотите потренироваться только на ошибках?',
+      'yes': 'Да',
+      'no': 'Нет',
+      'info_title': 'Информация',
+      'add_info':
+          'При добавлении слов заполните соответствующие поля для каждого языка. Если текст состоит из нескольких строк и в начале или конце строк используются символы + или = в качестве разделителей, они будут автоматически очищены. Символы внутри формул (+, =) будут сохранены.',
+      'quiz_guide_title': 'Добавление тестов',
+      'quiz_guide_content':
+          'Тесты автоматически формируются из слов, добавленных в разделе "Добавить слово". Добавьте новое слово, и оно появится в этом тесте.',
+      'practice_mistakes_title': 'Работа над ошибками',
+      'practice_mistakes_desc':
+          'У вас {count} ошибок. Хотите начать новый тест на их основе?',
     },
   };
 }

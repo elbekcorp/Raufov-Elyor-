@@ -1,10 +1,10 @@
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'dictionary_screen.dart';
 import 'translator_screen.dart';
 import 'quiz_screen.dart';
 import 'add_word_screen.dart';
+import 'settings_screen.dart';
 import '../providers/locale_provider.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -26,33 +26,25 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     final localeProvider = context.watch<LocaleProvider>();
-    
+
     return Scaffold(
       appBar: AppBar(
         title: Text(
           localeProvider.getText('app_title'),
-          style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.indigo),
+          style: const TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.indigo,
+          ),
         ),
         actions: [
-          PopupMenuButton<Locale>(
-            icon: const Icon(Icons.language, color: Colors.indigo),
-            onSelected: (Locale locale) {
-              localeProvider.setLocale(locale);
+          IconButton(
+            icon: const Icon(Icons.settings, color: Colors.indigo),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => const SettingsScreen()),
+              );
             },
-            itemBuilder: (BuildContext context) => <PopupMenuEntry<Locale>>[
-              const PopupMenuItem<Locale>(
-                value: Locale('uz'),
-                child: Text('O\'zbekcha'),
-              ),
-              const PopupMenuItem<Locale>(
-                value: Locale('en'),
-                child: Text('English'),
-              ),
-              const PopupMenuItem<Locale>(
-                value: Locale('ru'),
-                child: Text('Русский'),
-              ),
-            ],
           ),
         ],
         backgroundColor: Colors.white,
@@ -62,7 +54,11 @@ class _HomeScreenState extends State<HomeScreen> {
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
           boxShadow: [
-            BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 10, offset: const Offset(0, -2)),
+            BoxShadow(
+              color: Colors.black.withOpacity(0.1),
+              blurRadius: 10,
+              offset: const Offset(0, -2),
+            ),
           ],
         ),
         child: BottomNavigationBar(
@@ -76,23 +72,23 @@ class _HomeScreenState extends State<HomeScreen> {
           elevation: 0,
           items: [
             BottomNavigationBarItem(
-              icon: const Text('🤔', style: TextStyle(fontSize: 24)), 
-              activeIcon: const Text('🤔', style: TextStyle(fontSize: 24)), 
+              icon: const Text('🤔', style: TextStyle(fontSize: 24)),
+              activeIcon: const Text('🤔', style: TextStyle(fontSize: 24)),
               label: localeProvider.getText('tab_dictionary'),
             ),
             BottomNavigationBarItem(
-              icon: const Icon(Icons.translate_outlined), 
-              activeIcon: const Icon(Icons.translate), 
+              icon: const Icon(Icons.translate_outlined),
+              activeIcon: const Icon(Icons.translate),
               label: localeProvider.getText('tab_translator'),
             ),
             BottomNavigationBarItem(
-              icon: const Icon(Icons.quiz_outlined), 
-              activeIcon: const Icon(Icons.quiz), 
+              icon: const Icon(Icons.quiz_outlined),
+              activeIcon: const Icon(Icons.quiz),
               label: localeProvider.getText('tab_quiz'),
             ),
             BottomNavigationBarItem(
-              icon: const Icon(Icons.add_circle_outline), 
-              activeIcon: const Icon(Icons.add_circle), 
+              icon: const Icon(Icons.add_circle_outline),
+              activeIcon: const Icon(Icons.add_circle),
               label: localeProvider.getText('tab_add'),
             ),
           ],

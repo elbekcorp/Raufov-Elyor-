@@ -5,7 +5,13 @@ import '../providers/locale_provider.dart';
 
 class QuizScreen extends StatefulWidget {
   final QuizSet quizSet;
-  const QuizScreen({super.key, required this.quizSet});
+  final bool isPracticeMode;
+
+  const QuizScreen({
+    super.key,
+    required this.quizSet,
+    this.isPracticeMode = false,
+  });
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -19,6 +25,8 @@ class _QuizScreenState extends State<QuizScreen> {
 
   late List<String> _shuffledOptions;
   late int _shuffledCorrectIndex;
+
+  final List<QuizQuestion> _mistakenQuestions = [];
 
   @override
   void initState() {
@@ -37,26 +45,68 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _answerQuestion(int index) {
     if (_isAnswered) return;
+
     setState(() {
       _isAnswered = true;
       _selectedAnswerIndex = index;
       if (index == _shuffledCorrectIndex) {
         _score++;
-      }
-    });
+        // If in practice mode and answered correctly, we don't add to mistakes.
+        // If we want to remove from future practice, we just don't add it to a new list.
 
-    Future.delayed(const Duration(seconds: 1), () {
-      if (_currentQuestionIndex < widget.quizSet.questions.length - 1) {
-        setState(() {
-          _currentQuestionIndex++;
-          _setupQuestion();
-          _isAnswered = false;
-          _selectedAnswerIndex = null;
+        // Auto Advance if correct (User request: "to'g'ri javobda to'g'ridan to'g'ri keyingi testga o'tsin")
+        Future.delayed(const Duration(milliseconds: 500), () {
+          if (mounted) _nextQuestion();
         });
       } else {
-        _showResults();
+        // Wrong answer, track mistake
+        _mistakenQuestions.add(widget.quizSet.questions[_currentQuestionIndex]);
+        // Do nothing, wait for user to click Next
       }
     });
+  }
+
+  void _nextQuestion() {
+    if (_currentQuestionIndex < widget.quizSet.questions.length - 1) {
+      setState(() {
+        _currentQuestionIndex++;
+        _setupQuestion();
+        _isAnswered = false;
+        _selectedAnswerIndex = null;
+      });
+    } else {
+      _showResults();
+    }
+  }
+
+  void _showHelp() {
+    final lp = context.read<LocaleProvider>();
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Row(
+          children: [
+            const Icon(Icons.help_outline, color: Colors.indigo),
+            const SizedBox(width: 10),
+            Text(
+              lp.getText('quiz_guide_title'),
+            ), // Ensure this key exists or use fallback
+          ],
+        ),
+        // Use a generic text if key doesn't exist, or ensure key is added to LocaleProvider
+        content: Text(
+          lp.getText('quiz_guide_content') == 'quiz_guide_content'
+              ? "Test qo'shish uchun 'So'z qo'shish' bo'limiga o'ting va yangi so'zlarni kiriting. Ular avtomatik ravishda testga tushadi."
+              : lp.getText('quiz_guide_content'),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('OK'),
+          ),
+        ],
+      ),
+    );
   }
 
   void _showResults() {
@@ -68,25 +118,56 @@ class _QuizScreenState extends State<QuizScreen> {
         title: const Text('Natija'),
         content: Column(
           mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               'To\'g\'ri javoblar: $_score / ${widget.quizSet.questions.length}',
-              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
             Text(
               'Foiz: ${((_score / widget.quizSet.questions.length) * 100).toStringAsFixed(1)}%',
             ),
+            if (_mistakenQuestions.isNotEmpty) ...[
+              const SizedBox(height: 20),
+              Text(
+                'Xatolar soni: ${_mistakenQuestions.length}',
+                style: const TextStyle(color: Colors.red),
+              ),
+              const SizedBox(height: 10),
+              const Text('Xatolar ustida ishlashni xohlaysizmi?'),
+            ],
           ],
         ),
         actions: [
           TextButton(
             onPressed: () {
-              Navigator.pop(context);
-              Navigator.pop(context);
+              Navigator.pop(context); // Close dialog
+              Navigator.pop(context); // Close screen
             },
-            child: Text(lp.getText('cancel')),
+            child: Text(lp.getText('cancel')), // Or "Yo'q"
           ),
+          if (_mistakenQuestions.isNotEmpty)
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context); // Close dialog
+                // Start Practice Mode with mistakes
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => QuizScreen(
+                      quizSet: QuizSet(
+                        id: 'mistakes',
+                        title: 'Xatolar ustida ishlash',
+                        questions: _mistakenQuestions,
+                      ),
+                      isPracticeMode: true,
+                    ),
+                  ),
+                );
+              },
+              child: const Text('Ha, ishlash'),
+            ),
         ],
       ),
     );
@@ -99,6 +180,26 @@ class _QuizScreenState extends State<QuizScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.quizSet.title),
+        actions: [
+          PopupMenuButton<String>(
+            icon: const Icon(Icons.more_vert),
+            onSelected: (value) {
+              if (value == 'help') _showHelp();
+            },
+            itemBuilder: (context) => [
+              PopupMenuItem(
+                value: 'help',
+                child: Row(
+                  children: [
+                    const Icon(Icons.help_outline, color: Colors.indigo),
+                    const SizedBox(width: 8),
+                    const Text("Test qo'shish yo'riqnomasi"),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ],
         bottom: PreferredSize(
           preferredSize: const Size.fromHeight(4),
           child: LinearProgressIndicator(
@@ -157,6 +258,24 @@ class _QuizScreenState extends State<QuizScreen> {
                 ),
               );
             }),
+            if (_isAnswered)
+              Padding(
+                padding: const EdgeInsets.only(top: 20),
+                child: ElevatedButton(
+                  onPressed: _nextQuestion,
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.indigo,
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(vertical: 15),
+                  ),
+                  child: Text(
+                    lp.getText('next') == 'next'
+                        ? 'Keyingisi'
+                        : lp.getText('next'),
+                    style: const TextStyle(fontSize: 18),
+                  ),
+                ),
+              ),
           ],
         ),
       ),

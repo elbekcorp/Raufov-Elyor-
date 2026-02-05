@@ -20,6 +20,7 @@ class _QuizScreenState extends State<QuizScreen> {
   int _totalQuestions = 0;
   bool _answered = false;
   String? _selectedOption;
+  bool _practiceMistakesMode = false;
 
   String _fromLang = 'uz';
   String _toLang = 'en';
@@ -34,11 +35,24 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _generateQuestion() {
     final provider = context.read<DictionaryProvider>();
+    List<Word> sourceWords;
+
+    if (_practiceMistakesMode) {
+      sourceWords = provider.mistakenWords;
+      if (sourceWords.isEmpty) {
+        setState(() => _practiceMistakesMode = false);
+        sourceWords = provider.allWordsForQuiz;
+      }
+    } else {
+      sourceWords = provider.allWordsForQuiz;
+    }
+
+    if (sourceWords.length < 4 && !_practiceMistakesMode) return;
+    // If practice mode has fewer than 4, we might need to pad options from allWords
     final allWords = provider.allWordsForQuiz;
-    if (allWords.length < 4) return;
 
     final random = Random();
-    _currentWord = allWords[random.nextInt(allWords.length)];
+    _currentWord = sourceWords[random.nextInt(sourceWords.length)];
 
     _correctAnswer = _getWordTranslation(_currentWord, _toLang);
 
@@ -52,11 +66,37 @@ class _QuizScreenState extends State<QuizScreen> {
     }
     options.shuffle();
 
+    // Reset state but keep the previous question visible until Next is clicked?
+    // Actually _generateQuestion is called AFTER Next is clicked.
     setState(() {
       _options = options;
       _answered = false;
       _selectedOption = null;
     });
+  }
+
+  // Help Guide Dialog
+  void _showHelp() {
+    final lp = context.read<LocaleProvider>();
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Row(
+          children: [
+            const Icon(Icons.help_outline, color: Colors.indigo),
+            const SizedBox(width: 10),
+            Text(lp.getText('quiz_guide_title')),
+          ],
+        ),
+        content: Text(lp.getText('quiz_guide_content')),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('OK'),
+          ),
+        ],
+      ),
+    );
   }
 
   String _getWordTranslation(Word word, String lang) {
@@ -74,18 +114,99 @@ class _QuizScreenState extends State<QuizScreen> {
 
   void _checkAnswer(String option) {
     if (_answered) return;
+    final provider = context.read<DictionaryProvider>();
     setState(() {
       _answered = true;
       _selectedOption = option;
       _totalQuestions++;
       if (option == _correctAnswer) {
         _score++;
+        if (_practiceMistakesMode) {
+          provider.removeMistake(_currentWord);
+        }
+        // Auto-advance if correct
+        Future.delayed(const Duration(milliseconds: 500), () {
+          if (mounted) {
+            _generateQuestion();
+          }
+        });
+      } else {
+        provider.addMistake(_currentWord);
+        // Do nothing, wait for user to click Next
       }
     });
+  }
 
-    Future.delayed(const Duration(seconds: 1), () {
-      if (mounted) _generateQuestion();
-    });
+  void _finishSession() {
+    final localeProvider = context.read<LocaleProvider>();
+    final provider = context.read<DictionaryProvider>();
+    int mistakesCount = _totalQuestions - _score;
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => AlertDialog(
+        title: Text(localeProvider.getText('finish')),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              localeProvider
+                  .getText('quiz_summary')
+                  .replaceAll('{total}', _totalQuestions.toString())
+                  .replaceAll('{score}', _score.toString())
+                  .replaceAll('{mistakes}', mistakesCount.toString()),
+            ),
+            if (mistakesCount > 0 || provider.mistakenWords.isNotEmpty) ...[
+              const SizedBox(height: 20),
+              Text(
+                localeProvider
+                    .getText('practice_mistakes_desc')
+                    .replaceAll(
+                      '{count}',
+                      provider.mistakenWords.length.toString(),
+                    ),
+              ),
+            ],
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.pop(context);
+              // User said NO. If they don't practice, mistakes persist because
+              // the user asked "hatolar qolib to'grilar o'chmasin"
+              // But if we want to CLEAR for a fresh session, we might want to clear.
+              // However, user demand "Create new test for mistakes? Yes/No".
+              // If No, we just go back to normal.
+              setState(() {
+                _score = 0;
+                _totalQuestions = 0;
+                _practiceMistakesMode = false;
+              });
+              _generateQuestion();
+            },
+            child: Text(localeProvider.getText('no')),
+          ),
+          if (mistakesCount > 0 || provider.mistakenWords.isNotEmpty)
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(context);
+                if (provider.mistakenWords.isNotEmpty) {
+                  setState(() {
+                    _score = 0;
+                    _totalQuestions = 0;
+                    _practiceMistakesMode = true;
+                  });
+                  _generateQuestion();
+                }
+              },
+              child: Text(localeProvider.getText('yes')),
+            ),
+        ],
+      ),
+    );
   }
 
   @override
@@ -112,6 +233,38 @@ class _QuizScreenState extends State<QuizScreen> {
         padding: const EdgeInsets.all(24.0),
         child: Column(
           children: [
+            if (_practiceMistakesMode)
+              Container(
+                margin: const EdgeInsets.only(bottom: 10),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 6,
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.orange.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(color: Colors.orange),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const Icon(
+                      Icons.warning_amber_rounded,
+                      color: Colors.orange,
+                      size: 18,
+                    ),
+                    const SizedBox(width: 8),
+                    Text(
+                      localeProvider.getText('practice_mistakes'),
+                      style: const TextStyle(
+                        color: Colors.orange,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 12,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -123,15 +276,55 @@ class _QuizScreenState extends State<QuizScreen> {
                     color: Colors.indigo,
                   ),
                 ),
-                IconButton(
-                  icon: const Icon(Icons.refresh, color: Colors.indigo),
-                  onPressed: () {
-                    setState(() {
-                      _score = 0;
-                      _totalQuestions = 0;
-                    });
-                    _generateQuestion();
-                  },
+                Row(
+                  children: [
+                    IconButton(
+                      icon: const Icon(Icons.refresh, color: Colors.indigo),
+                      onPressed: () {
+                        setState(() {
+                          _score = 0;
+                          _totalQuestions = 0;
+                          _practiceMistakesMode = false;
+                        });
+                        _generateQuestion();
+                      },
+                    ),
+                    PopupMenuButton<String>(
+                      icon: const Icon(Icons.more_vert, color: Colors.indigo),
+                      onSelected: (value) {
+                        if (value == 'help') {
+                          _showHelp();
+                        }
+                      },
+                      itemBuilder: (BuildContext context) =>
+                          <PopupMenuEntry<String>>[
+                            PopupMenuItem<String>(
+                              value: 'help',
+                              child: Row(
+                                children: [
+                                  const Icon(
+                                    Icons.help_outline,
+                                    color: Colors.indigo,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Expanded(
+                                    child: Text(
+                                      localeProvider.getText(
+                                        'quiz_guide_title',
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.done_all, color: Colors.green),
+                      onPressed: _finishSession,
+                      tooltip: localeProvider.getText('finish'),
+                    ),
+                  ],
                 ),
               ],
             ),
@@ -209,6 +402,28 @@ class _QuizScreenState extends State<QuizScreen> {
                 ),
               ),
             ),
+            if (_answered) ...[
+              const SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: _generateQuestion,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.indigo,
+                  foregroundColor: Colors.white,
+                  minimumSize: const Size.fromHeight(60),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  elevation: 4,
+                ),
+                child: Text(
+                  localeProvider.getText('next'),
+                  style: const TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+            ],
           ],
         ),
       ),
