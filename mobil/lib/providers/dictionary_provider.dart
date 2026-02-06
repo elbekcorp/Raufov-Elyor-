@@ -12,7 +12,7 @@ class DictionaryProvider with ChangeNotifier {
   List<Word> _words = [];
   List<Word> _userWords = [];
   List<Word> _filteredWords = [];
-  List<Word> _mistakenWords = []; // Track mistakes
+  final List<Word> _mistakenWords = []; // Track mistakes
   bool _isLoading = true;
 
   List<Word> get words => _filteredWords.isEmpty && !_isLoading

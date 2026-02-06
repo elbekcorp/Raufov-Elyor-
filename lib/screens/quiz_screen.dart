@@ -187,9 +187,9 @@ class _QuizScreenState extends State<QuizScreen> {
               if (value == 'help') _showHelp();
             },
             itemBuilder: (context) => [
-              PopupMenuItem(
+              const PopupMenuItem(
                 value: 'help',
-                child: Row(
+                child: const Row(
                   children: [
                     const Icon(Icons.help_outline, color: Colors.indigo),
                     const SizedBox(width: 8),
@@ -233,9 +233,9 @@ class _QuizScreenState extends State<QuizScreen> {
               Color? btnColor;
               if (_isAnswered) {
                 if (idx == _shuffledCorrectIndex) {
-                  btnColor = Colors.green.withOpacity(0.3);
+                  btnColor = Colors.green.withValues(alpha: 0.3);
                 } else if (idx == _selectedAnswerIndex) {
-                  btnColor = Colors.red.withOpacity(0.3);
+                  btnColor = Colors.red.withValues(alpha: 0.3);
                 }
               }
 
@@ -251,7 +251,7 @@ class _QuizScreenState extends State<QuizScreen> {
                     side: BorderSide(
                       color: _isAnswered && idx == _shuffledCorrectIndex
                           ? Colors.green
-                          : Colors.grey.withOpacity(0.3),
+                          : Colors.grey.withValues(alpha: 0.3),
                     ),
                   ),
                   child: Text(text, style: const TextStyle(fontSize: 18)),

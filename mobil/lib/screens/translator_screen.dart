@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:translator/translator.dart';
@@ -17,7 +16,7 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
   final GoogleTranslator _translator = GoogleTranslator();
   final TextEditingController _controller = TextEditingController();
   final stt.SpeechToText _speech = stt.SpeechToText();
-  
+
   String _translatedText = "";
   bool _isListening = false;
   String _sourceLang = 'uz';
@@ -36,7 +35,7 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
 
   void _translate() async {
     if (_controller.text.isEmpty) return;
-    
+
     try {
       final translation = await _translator.translate(
         _controller.text,
@@ -87,15 +86,27 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: [
-                  BoxShadow(color: Colors.black.withOpacity(0.05), blurRadius: 10, offset: const Offset(0, 4)),
+                  BoxShadow(
+                    color: Colors.black.withValues(alpha: 0.05),
+                    blurRadius: 10,
+                    offset: const Offset(0, 4),
+                  ),
                 ],
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  _buildLangDropdown(_sourceLang, (v) => setState(() => _sourceLang = v!), localeProvider),
+                  _buildLangDropdown(
+                    _sourceLang,
+                    (v) => setState(() => _sourceLang = v!),
+                    localeProvider,
+                  ),
                   const Icon(Icons.swap_horiz, color: Colors.indigo, size: 30),
-                  _buildLangDropdown(_targetLang, (v) => setState(() => _targetLang = v!), localeProvider),
+                  _buildLangDropdown(
+                    _targetLang,
+                    (v) => setState(() => _targetLang = v!),
+                    localeProvider,
+                  ),
                 ],
               ),
             ),
@@ -119,7 +130,10 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
                     onPressed: _listen,
                     backgroundColor: _isListening ? Colors.red : Colors.indigo,
                     elevation: 0,
-                    child: Icon(_isListening ? Icons.stop : Icons.mic, color: Colors.white),
+                    child: Icon(
+                      _isListening ? Icons.stop : Icons.mic,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
               ),
@@ -131,7 +145,9 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
                 backgroundColor: Colors.indigo,
                 foregroundColor: Colors.white,
                 minimumSize: const Size.fromHeight(60),
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20),
+                ),
                 elevation: 4,
               ),
               child: Row(
@@ -139,27 +155,37 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
                 children: [
                   const Icon(Icons.translate),
                   const SizedBox(width: 10),
-                  Text(localeProvider.getText('translate_button'), style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                  Text(
+                    localeProvider.getText('translate_button'),
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
             ),
             const SizedBox(height: 30),
             if (_translatedText.isNotEmpty) ...[
-              const Align(
-                child: Divider(),
-              ),
+              const Align(child: Divider()),
               const SizedBox(height: 10),
               Container(
                 width: double.infinity,
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
-                  color: Colors.indigo.withOpacity(0.05),
+                  color: Colors.indigo.withValues(alpha: 0.05),
                   borderRadius: BorderRadius.circular(20),
-                  border: Border.all(color: Colors.indigo.withOpacity(0.1)),
+                  border: Border.all(
+                    color: Colors.indigo.withValues(alpha: 0.1),
+                  ),
                 ),
                 child: Text(
                   _translatedText,
-                  style: const TextStyle(fontSize: 20, color: Colors.indigo, fontWeight: FontWeight.w500),
+                  style: const TextStyle(
+                    fontSize: 20,
+                    color: Colors.indigo,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
               ),
             ],
@@ -169,15 +195,46 @@ class _TranslatorScreenState extends State<TranslatorScreen> {
     );
   }
 
-  Widget _buildLangDropdown(String value, Function(String?) onChanged, LocaleProvider lp) {
+  Widget _buildLangDropdown(
+    String value,
+    Function(String?) onChanged,
+    LocaleProvider lp,
+  ) {
     return DropdownButton<String>(
       value: value,
       underline: const SizedBox(),
       icon: const Icon(Icons.keyboard_arrow_down, color: Colors.indigo),
       items: [
-        DropdownMenuItem(value: 'uz', child: Text(lp.getText('uzbek'), style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.indigo))),
-        DropdownMenuItem(value: 'en', child: Text(lp.getText('english'), style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.indigo))),
-        DropdownMenuItem(value: 'ru', child: Text(lp.getText('russian'), style: const TextStyle(fontWeight: FontWeight.bold, color: Colors.indigo))),
+        DropdownMenuItem(
+          value: 'uz',
+          child: Text(
+            lp.getText('uzbek'),
+            style: const TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.indigo,
+            ),
+          ),
+        ),
+        DropdownMenuItem(
+          value: 'en',
+          child: Text(
+            lp.getText('english'),
+            style: const TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.indigo,
+            ),
+          ),
+        ),
+        DropdownMenuItem(
+          value: 'ru',
+          child: Text(
+            lp.getText('russian'),
+            style: const TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.indigo,
+            ),
+          ),
+        ),
       ],
       onChanged: onChanged,
     );

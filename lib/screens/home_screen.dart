@@ -71,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
               if (controller.text.isNotEmpty) {
                 await _storage.createCategory(controller.text);
                 _loadCategories();
-                if (mounted) Navigator.pop(context);
+                if (context.mounted) Navigator.pop(context);
               }
             },
             child: Text(lp.getText('save')),
@@ -186,7 +186,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () async {
               await _storage.deleteCategory(cat.name);
               _loadCategories();
-              if (mounted) Navigator.pop(context);
+              if (context.mounted) Navigator.pop(context);
             },
             child: Text(
               lp.getText('delete'),

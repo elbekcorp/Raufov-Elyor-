@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 import 'providers/theme_provider.dart';
 import 'providers/locale_provider.dart';
 import 'screens/welcome_screen.dart';
-import 'screens/home_screen.dart';
 
 void main() {
   runApp(

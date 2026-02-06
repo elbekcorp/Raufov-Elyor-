@@ -86,8 +86,7 @@ class _TestListScreenState extends State<TestListScreen> {
           ),
           const SizedBox(height: 16),
           Text(
-            lp.getText('app_title') +
-                ' yo\'q', // Simple fallback or add more keys
+            '${lp.getText('app_title')} yo\'q', // Simple fallback or add more keys
             style: TextStyle(fontSize: 18, color: Colors.grey[600]),
           ),
         ],
@@ -162,7 +161,7 @@ class _TestListScreenState extends State<TestListScreen> {
             onPressed: () async {
               await _storage.deleteTest(widget.category.name, test.id);
               _loadTests();
-              if (mounted) Navigator.pop(context);
+              if (context.mounted) Navigator.pop(context);
             },
             child: Text(
               lp.getText('delete'),

@@ -70,7 +70,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                       color: Colors.white,
                       boxShadow: [
                         BoxShadow(
-                          color: Colors.black.withOpacity(0.05),
+                          color: Colors.black.withValues(alpha: 0.05),
                           blurRadius: 20,
                           spreadRadius: 5,
                         ),
@@ -104,14 +104,14 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               ],
             ),
           ),
-          Positioned(
+          const Positioned(
             left: 0,
             right: 0,
             bottom: 30,
             child: Center(
-              child: Text(
+              child: const Text(
                 'T',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 30,
                   fontWeight: FontWeight.w900,
                   color: Colors.indigo,
