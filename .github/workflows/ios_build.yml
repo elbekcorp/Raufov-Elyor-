@@ -18,18 +18,20 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
+          flutter-version: '3.x'
 
       - name: Install dependencies
         run: flutter pub get
 
       - name: Build iOS
-       run: flutter build ios --release --no-codesign
+        run: flutter build ios --release --no-codesign
 
       - name: Package IPA
         run: |
           mkdir -p Payload
           cp -r build/ios/iphoneos/Runner.app Payload/
           zip -r Bilimingni_Test_Qil.ipa Payload
+          rm -rf Payload
 
       - name: Upload iOS Build
         uses: actions/upload-artifact@v4
